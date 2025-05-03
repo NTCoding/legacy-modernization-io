@@ -12,3 +12,6 @@ theme = 'ananke'
     name = 'Patterns'
     pageRef = '/patterns'
     weight = 20
+
+[params]
+mainSections = ["post"]
