@@ -1,0 +1,28 @@
+{{- $name := "mod-error-message" }}
+
+{{- /* Initialize mandatory variables */}}
+{{- $errorMsg := .errorMsg }}
+{{- $errorLevel := .errorLevel }}
+
+{{- $msg := "" }}
+
+{{- with .caller }}
+    {{- $msg = printf "%s:" . }}
+{{- end }}
+
+{{- with .ctx }}
+    {{- $path := partial "error-path" . }}
+    {{- $msg = printf "%s %s See %s." $msg $errorMsg $path }}
+{{- else }}
+    {{- $msg = printf "%s %s" $msg $errorMsg }}
+{{- end }}
+
+{{- if eq $errorLevel "ignore" }}
+     {{/* do nothing */}}
+{{- else if eq $errorLevel "warning" }}
+    {{- warnf $msg }}                
+{{- else if eq $errorLevel "error" }}
+    {{- errorf $msg }}
+{{- else }}
+    {{- errorf "%s: Invalid error level %q. Only 'ignore', 'warning', or 'error' are possible." $name $errorLevel }}
+{{- end }}

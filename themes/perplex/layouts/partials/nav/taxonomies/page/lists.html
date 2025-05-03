@@ -1,0 +1,20 @@
+{{ $categories := .GetTerms "categories" }}
+{{ $tags := .GetTerms "tags" }}
+<ul class="meta__list">
+  <li class="taxo-shape taxo-shape--category">
+      {{ with $categories }}
+        <ul class="ul--row">
+            {{- partial "nav/taxonomies/icon_item/categories.html" . -}}
+            {{- partial "nav/taxonomies/page/term_list.html" . -}}
+        </ul>
+      {{ end }}
+  </li>
+  <li class="taxo-shape taxo-shape--tag">
+      {{ with $tags }}
+        <ul class="ul--row">
+            {{- partial "nav/taxonomies/icon_item/tags.html" . -}}
+            {{- partial "nav/taxonomies/page/term_list.html" . -}}
+        </ul>
+      {{ end }}
+  </li>
+</ul>

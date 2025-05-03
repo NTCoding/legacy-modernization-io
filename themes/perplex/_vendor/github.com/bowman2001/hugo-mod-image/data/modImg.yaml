@@ -1,0 +1,91 @@
+container: img-c
+id:
+  image:
+    caption: "Fig %d:"
+    anchor: "fig-%d"
+  diagram:
+    caption: "Diag %d:"
+    anchor: "diag-%d"
+  sections: [doc, article]
+missing: mod-img/missing.svg
+errorLevel: warning
+unsplash: false
+svg:
+  defaultType: symbol
+  maxInline: 8192
+
+srcset:
+  sizeStep: 30 # In percent 
+  maxDensityFactor: 2.6
+  quality: 85
+  qualityReductionFactor: 25
+  lqip: 
+    run: true
+    divider: 3
+    blur: 4
+    quality: 25
+    max: 2048
+
+process:
+  none: [ gif ]
+  compress: [ bmp, jpeg, webp, png ]
+  lossless: [ tiff ]
+    
+
+preprocess:  
+  anchor: [ Smart, TopLeft, Top, TopRight, Left, Center, Right, BottomLeft, Bottom, BottomRight ] # See https://gohugo.io/content-management/image-processing/#anchor
+  ratio: 
+    min: 0.2
+    max: 5.0    
+  rotate: [ 90right, 90left, "180" ]
+  zoomMax: 4.0 
+  rsFilter: [ bartlett, blackman, box, bspline, catmullrom, cosine, gaussian, hamming, hann, hermite, lanczos, linear, mitchellnetravali, nearestneighbor, welch ]
+  webpHint: [ drawing, icon, photo, picture, text ]
+
+kroki:
+  server: "https://kroki.io/"
+  types: 
+    - "actdiag" 
+    - "blockdiag" 
+    - "bpmn" 
+    - "bytefield" 
+    - "d2" 
+    - "dbml" 
+    - "ditaa" 
+    - "erd" 
+    - "excalidraw" 
+    - "graphviz" 
+    - "mermaid" 
+    - "nomnoml" 
+    - "nwdiag" 
+    - "packetdiag" 
+    - "pikchr" 
+    - "plantuml" 
+    - "rackdiag" 
+    - "seqdiag" 
+    - "structurizr" 
+    - "svgbob" 
+    - "umlet" 
+    - "vega" 
+    - "vegalite" 
+    - "wavedrom" 
+    - "wireviz"
+  attrs:
+    - id
+    - width
+    - w
+    - posh
+    - ph
+    - posv
+    - pv
+    - class
+    - link
+    - rel
+    - target
+    - background
+    - box
+    - padding
+    - type
+    - caption
+    - attr
+    - attrlink

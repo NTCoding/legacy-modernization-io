@@ -1,0 +1,9 @@
+<div class="l-wrap sidebar-box">
+  <nav class="sidebar">
+      {{/* with .Site.GetPage "/doc" }}
+          {{ partial "nav/sidebar/heading.html" . }}
+      {{ end */}}
+      {{ $args := dict "context" . "menu" .Site.Menus.doc "menuName" "doc" }}
+      {{- partialCached "nav/sidebar/menu-list.html" $args . -}}
+  </nav>
+</div>

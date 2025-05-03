@@ -1,0 +1,13 @@
+{{ $toc := false }}
+{{ if (and .IsPage (ne ($.Param "toc") false)) }}
+    {{ with .Fragments.Headings }}
+        {{- $startLevel := or ($.Param "toc.startLevel" | int) 2 }}
+        {{- $endLevel := or ($.Param "toc.endLevel" | int) 4 }}
+        {{- $temp := $.Fragments.ToHTML $startLevel $endLevel true | safeHTML }}
+        {{- $numHeadings := $temp | findRE `<a href=".+">.+</a>` | len }}
+        {{- if ge $numHeadings (or ($.Param "toc.minNumHeadings" | int) 2) }}
+          {{ $toc = true }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ return $toc }}

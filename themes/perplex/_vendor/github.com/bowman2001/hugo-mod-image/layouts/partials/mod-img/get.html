@@ -1,0 +1,33 @@
+{{- /* Constants */}}
+{{ $name := "mod-img/get" }}
+{{ $errorLevel := site.Data.modImg.errorLevel | default "error" }}
+
+{{/* Arguments */}}
+{{ $src := .src }}
+{{ $ctx := .ctx }}
+
+{{ $imgMap := dict }}
+{{ $url := urls.Parse $src }}
+{{ $args := dict "url" $url "ctx" $ctx "errorLevel" $errorLevel }}
+
+{{ with (partial "mod-resource/func/get-with-params" $args) }}
+    {{ $resource := .resource }}
+    {{ if and $resource (eq (printf "%T" $resource) "*resources.Image") }}
+        {{ $imgMap = dict "img" $resource "params" .params }}
+    {{ else }}
+        {{ $imgMap = dict "img" (partial "mod-img/helper/missing" $ctx) "params" .params }}
+        {{ $msg := printf "The resource %q is not a valid image resource." $src }}
+        {{ partial "error-msg" (dict "caller" $name "ctx" $ctx "errorMsg" $msg "errorLevel" $errorLevel) }}
+    {{ end }}
+{{ else }}
+    {{ $imgMap = dict "img" (partial "mod-img/helper/missing" $ctx) }}
+{{ end }}
+
+{{ with $imgMap }}
+    {{ $imgMap = partial "mod-img/func/params/collect-and-sort" $imgMap }}
+{{ end }}
+
+{{ return $imgMap }}
+
+
+

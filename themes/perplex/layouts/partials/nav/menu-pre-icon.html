@@ -1,0 +1,5 @@
+{{ $entry := .menuEntry }}
+{{ $size := .size | default "normal" }}
+{{- with $entry.Pre | default "arrow_right" -}}
+    {{- partial "material-symbol" (dict "id" . "ctx" page "size" $size ) -}}
+{{- end -}}

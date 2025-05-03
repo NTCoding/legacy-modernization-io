@@ -1,0 +1,95 @@
+debug: false
+unsplash: true
+
+figure:
+  base: "fig"
+  width:
+    name: Width
+    prefix: w-
+    options: [tiny, small, medium, text, large, xlarge]
+    intOpts: [pt1, pt2]
+  posh:
+    name: Horizontal position
+    prefix: ph-
+    options: [left, right]
+
+embed:
+  base: "emb"
+  width:
+    name: Width
+    prefix: w-
+    options: [micro, tiny, small, text]
+  posh:
+    name: Horizontal position
+    prefix: ph-
+    options: [left, right]
+  posv:
+    name: Vertical position
+    prefix: pv-
+    options: [top, middle]
+
+frame:
+  base: "img__frame"
+  background:
+    name: "Background"
+    prefix: bg-
+    options: [dark, light, white, none]
+  box:
+    name: "Box"
+    prefix: box-
+    options: [ shadow, none ]
+  padding:
+    name: "Padding"
+    prefix: pad-
+    options: [ half, one, two, three, none ]
+
+container:
+  base: "img__c"
+  type:
+    name: Type
+    prefix: t-
+    options: [ symbol, image ]
+  color:
+    name: Color
+    prefix: c-
+    options: [red]
+
+width:
+  pt1: [30,30]
+  pt2: [45,45]
+  micro: [64,85]
+  tiny: [128,165]
+  small: [256,330]
+  medium: [256,515]
+  text: [512,700]
+  large: [512,1070]
+  xlarge: [512,1440]
+
+default:
+  frame:
+    box: shadow
+  figure:
+    width: text
+  embed:
+    width: small
+    posh: left
+
+srcset:
+  sizeStep: 25
+  maxDensityFactor: 2.6
+  quality: 85
+  qualityReductionFactor: 25
+  lqip:
+    run: true
+    quality: 25
+    divider: 3
+    blur: 3
+    max: 2048
+
+base64:
+  densityFactor: 1.6
+  quality: 65
+
+svg:
+  defaultType: symbol
+  inlineMax: 4096

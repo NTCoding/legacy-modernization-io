@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html {{ with .Site.Language.Lang }}lang="{{ . }}"{{ end }}>
+{{- partial "head.html" . -}}
+<body>
+<script>let FF_FOUC_FIX; /* Hack: Prevent Firefox FOUC */</script>
+<header class="l-masthead l-nav" id="l-masthead">
+    {{- partial "nav/masthead.html" . }}
+</header>
+<div class="l-page">
+  <main id="l-main" class="l-tnp">
+      {{- block "main" . -}}{{ end }}
+      {{- block "footer" . }}
+    <footer id="l-footer" class="l-box margin-full-half">
+        {{- partial "footer/site.html" . }}
+    </footer>
+      {{- end }}
+  </main>
+  <div id="l-overlay"></div>
+</div>
+{{- partial "foot.html" . }}
+{{- partial "hugo-mod-wrap/check" . }}
+</body>
+</html>

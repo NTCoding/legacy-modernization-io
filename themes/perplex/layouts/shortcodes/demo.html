@@ -1,0 +1,10 @@
+{{ $result := (.Get 0) | default "gets rendered to:" }}
+{{ with .Inner }}
+    {{ $inner := trim . "\n" }}
+    {{ highlight $inner "md" }}
+    {{ $inner = $inner | site.Home.RenderString }}
+    <p>{{ $result | site.Home.RenderString }}</p>
+    <hr>
+    {{ $inner }}
+    <hr>
+{{ end }}

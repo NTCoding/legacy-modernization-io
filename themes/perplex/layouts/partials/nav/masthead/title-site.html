@@ -1,0 +1,15 @@
+{{ with .Site.Title }}
+    {{ $title := . | site.Home.RenderString }}
+    {{ $link := $.Site.Home.Permalink }}
+    {{ with $.Site.Params.logo }}
+        {{ with resources.Get . }}
+          <a class="ctrl__title ctrl__title--logo" href="{{ $link }}">
+            <img class="img--transparent" src="{{ .RelPermalink }}" alt="$title">
+          </a>
+        {{ end }}
+    {{ else }}
+      <a class="ctrl__title ctrl__title--text nav__title" href="{{ $link }}">
+        <span>{{ $title }}</span>
+      </a>
+    {{ end }}
+{{ end }}

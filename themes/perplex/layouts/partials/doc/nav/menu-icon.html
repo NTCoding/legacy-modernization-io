@@ -1,0 +1,5 @@
+{{- with $id := partial "img/func/params/get-icon-id" . -}}
+<span class="section-nav__icon">
+    {{- partial "material-symbol" (dict "id" . "ctx" page "size" "normal") -}}
+</span>
+{{- end -}}

@@ -1,0 +1,13 @@
+{{/* Constants */}}
+{{ $name := "mod-img/helper/missing" }}
+{{ $errorLevel := site.Data.modImg.errorLevel | default "error" }}
+
+{{ $img := "" }}
+{{ with resources.Get site.Data.modImg.missing }}
+    {{ $img = . }}
+{{ else }}
+    {{ $msg := "Unable to get file for missing image. See configuration data/modImg." }}
+    {{ partial "error-msg" (dict "caller" $name "errorMsg" $msg "errorLevel" $errorLevel) }}
+{{ end }}
+
+{{ return $img }}

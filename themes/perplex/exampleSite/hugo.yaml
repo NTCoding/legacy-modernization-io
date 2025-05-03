@@ -1,0 +1,25 @@
+baseURL: https://example.org
+title: Perplex Example
+
+refLinksErrorLevel: WARNING
+timeout: 600s
+
+enableEmoji: true
+
+markup:
+  _merge: deep
+
+taxonomies:
+  _merge: deep
+
+module:
+  imports:
+    - path: github.com/bowman2001/perplex
+
+params:
+  description: An example site for the Hugo theme Perplex
+  postcss: false
+
+build:
+  buildStats:
+    enable: false

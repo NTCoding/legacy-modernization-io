@@ -1,0 +1,30 @@
+{{ $src := "featured" }}
+{{ $ctx := . }}
+{{ $imgMap := dict }}
+
+{{ with .Params.featured }}
+  {{ if and (eq $.Type "doc") (eq . "icon") }}
+    {{ with $id := partial "img/func/params/get-icon-id" $ctx }}
+      {{ $iconstr := partial "material-symbol" (dict "id" $id "ctx" $ctx "size" "xl" ) }}
+      {{ $iconstr = replaceRE `</?span[^>]*>` "" $iconstr }}
+      {{ $imgMap = dict
+        (slice "params" "svgstr") $iconstr
+        (slice "params" "class" "width") "tiny"
+        (slice "params" "contClass" "type") "symbol"
+        (slice "params" "frameClass" "box") "shadow"
+        (slice "params" "frameClass" "background") "light"
+        (slice "params" "frameClass" "padding") "three"
+        (slice "params" "contClass" "color") "red"
+      }}
+    {{ else }}
+      {{ warnf "Can’t find menu icon on %v." $ctx }}
+      {{ $imgMap = partial "mod-img/get" (dict "src" $src "ctx" $ctx ) }}
+    {{ end }}
+  {{ else }}
+    {{ $imgMap = partial "mod-img/get" (dict "src" . "ctx" $ctx ) }}
+  {{ end }}
+{{ else }}
+  {{ $imgMap = partial "mod-img/get" (dict "src" $src "ctx" $ctx ) }}
+{{ end }}
+
+{{ return $imgMap }}

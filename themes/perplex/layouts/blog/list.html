@@ -1,0 +1,25 @@
+{{- define "main" -}}
+  <div id="l-content-box" class="l-box l-box--full">
+    <header class="page-header">
+      <div class="title title--bg title--blog padding-full">
+          {{ partial "file/vscode_start.html" . }}
+          {{ partial "title/title.html" . }}
+          {{ partial "file/vscode_end.html" . }}
+      </div>
+    </header>
+      {{ with .Content }}
+        <div class="md md--sans md--h-sans md--blog md--margin-full">{{- partial "replacements.html" . -}}</div>
+      {{ end }}
+      {{ with .RegularPages }}
+        <nav class="card-nav card-nav--4">
+          <ul class="card-nav__list">
+              {{- range . -}}
+                <li class="card card--1 card--1--col card__hover">{{- .Render "li-card-1-col-img" -}}</li>
+              {{- end -}}
+          </ul>
+        </nav>
+      {{ end }}
+    <footer class="page-footer margin-full">
+    </footer>
+  </div>
+{{- end -}}

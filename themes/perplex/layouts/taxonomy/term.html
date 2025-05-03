@@ -1,0 +1,39 @@
+{{- define "main" -}}
+  <div id="l-content-box" class="l-box l-box--full">
+    <header class="page-header page-header--left">
+      <div class="title title--sans title--second title--taxo">
+        <hr>
+          {{ partial "file/vscode_start.html" .Page }}
+          {{ partial "title/taxoterm.html" .Page }}
+          {{ partial "title/subtitle.html" .Page }}
+          {{ partial "file/vscode_end.html" .Page }}
+      </div>
+    </header>
+      {{ with .Content }}
+        <div class="md md--sans md--margin-full md--h-serif md--list">
+            {{- partial "replacements.html" . -}}
+        </div>
+      {{ end }}
+      {{ with .RegularPages }}
+        <nav class="card-nav card-nav--3 card-nav--top margin-full">
+          <ul class="card-nav__list">
+              {{- range . -}}
+                <li class="card card--1 card--1--col card__hover">
+                  {{- .Render "li-card-1-col-img" -}}
+                </li>
+              {{- end -}}
+          </ul>
+        </nav>
+      {{ end }}
+    <footer class="page-footer page-footer--taxo margin-full">
+        <div class="taxo {{ if gt (len .RegularPages) 3 }}taxo--left{{ end }}">
+          {{- partial "footer/taxo.html" . -}}
+        </div>
+    </footer>
+  </div>
+{{- end -}}
+{{ define "footer" -}}
+  <footer id="l-footer" class="l-box margin-full">
+      {{- partial "footer/site.html" . -}}
+  </footer>
+{{ end -}}

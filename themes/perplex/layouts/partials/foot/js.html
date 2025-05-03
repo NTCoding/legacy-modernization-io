@@ -1,0 +1,9 @@
+{{- $toggles := resources.Get "js/toggles.js" }}
+{{- $copyCode := resources.Get "js/copy-code.js" }}
+{{- $cssHasPseudo := resources.Get "js/css-has-pseudo.js" }}
+{{- $js := slice $toggles $copyCode $cssHasPseudo | resources.Concat "js/foot.js" | minify | fingerprint }}
+<script defer src="{{- $js.RelPermalink -}}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ template "_internal/google_analytics.html" . }}
+{{- with site.Params.fathomSiteID }}
+<script defer src="https://cdn.usefathom.com/script.js" data-site="{{ . }}" crossorigin></script>
+{{- end }}

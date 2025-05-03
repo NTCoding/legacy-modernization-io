@@ -1,0 +1,12 @@
+<head>
+{{- partial "head/meta.html" . -}}
+<title>{{- partial "head/title.html" . -}}</title>
+{{- partial "head/link.html" . -}}
+{{- partialCached "head/css.html" . -}}
+{{- partialCached "head/js.html" . -}}
+{{- partial "head/favicon.html" . -}}
+{{- partialCached "dev/head.html" . -}}
+</head>
+
+{{- define "partials/dev/head.html" }}{{ end }}
+{{- /**/ -}}

@@ -1,0 +1,19 @@
+<nav>
+    {{- with .Params.contact_icons }}
+    <ul class="author__icon-list">
+            {{- range . }}
+                {{- $a := dict "class" "author__icon-item link link--nav-ext" }}
+                {{- with .name }}
+                    {{- $a = merge $a (dict "title" .) }}
+                {{- end }}
+                {{- with .url }}
+                    {{- $a = merge $a (dict "href" . ) }}
+                {{- end }}
+                {{- with (and .url .icon) -}}
+                <li><a {{ range $k, $v := $a }}{{ printf " %s=%q" $k $v | safeHTMLAttr }}{{ end }} >
+                            {{- partial "simple-icon.html" ( dict "id" . ) }}</a></li>
+                {{- end -}}
+            {{- end }}
+    </ul>
+    {{- end }}
+</nav>

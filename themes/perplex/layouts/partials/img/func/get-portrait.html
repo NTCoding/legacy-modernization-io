@@ -1,0 +1,5 @@
+{{ $src := "portrait" }}
+{{ with .Params.portrait }}
+  {{ $src = . }}
+{{ end }}
+{{ return (partial "mod-img/get" (dict "src" $src "ctx" . )) }}

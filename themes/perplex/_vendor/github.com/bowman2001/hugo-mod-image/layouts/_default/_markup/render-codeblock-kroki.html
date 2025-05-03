@@ -1,0 +1,66 @@
+{{- $name := "mod-img/render-codeblock-kroki" }}
+{{- $errorLevel := site.Data.modImg.errorLevel | default "error" }}
+
+{{- $ctx := . }}
+{{- $inner := trim .Inner "\n\r" }}
+{{- $supported := site.Data.modImg.kroki.types }}
+{{- $diagram := "" }}
+{{ with .Attributes.diagram }}
+    {{- $diagram = (string .) | lower }}
+{{ else }}
+    {{- $msg := "Missing mandatory 'diagram' attribute for Kroki." }}
+    {{- partial "error-msg" (dict "caller" $name "ctx" . "errorMsg" $msg "errorLevel" "error") }}
+{{ end }}
+{{- if not (in $supported $diagram) }}
+    {{- $msg := "The diagram type %q is not supported by the Kroki server."  }}
+    {{- partial "error-msg" (dict "caller" $name "ctx" . "errorMsg" $msg "errorLevel" "error") }}
+{{- end }}
+
+{{- /* Set parameter defaults */}}
+{{- $classParams := partial "mod-img/func/params/default-class" (dict "type" "figure" "className" "class") }} 
+{{- $frameParams := partial "mod-img/func/params/default-class" (dict "type" "frame" "className" "frameClass") }}
+{{- $contParams := partial "mod-img/func/params/default-class" (dict "type" "container" "className" "contClass") }}
+{{- $defaultParams := merge $classParams $frameParams $contParams }}
+
+{{- /* Collect and sort parameters */}}
+{{- $hookParams := partial "mod-img/func/params/codeblock-hook" . }}
+
+{{- $userParams := dict }}
+{{- $attrs := dict }}
+{{- range $k, $v := .Attributes }}
+    {{- if (in site.Data.modImg.kroki.attrs $k) }}
+        {{- $userParams = merge $userParams (dict $k (string $v)) }}
+    {{- else }}
+        {{- /* $attrs = merge $attrs (dict $k (string $v | lower)) */}}
+    {{- end }}
+{{- end }}
+
+{{- /* Sort user parameters and merge with defaults */}}
+{{ $attributes := partial "mod-img/func/params/collect/attributes" (dict "img" "" "params" $userParams) }}
+{{ $caption := partial "mod-resource/func/caption" $userParams }}
+{{ $params := merge $defaultParams $hookParams $attributes $caption }}
+
+{{- /* Aggregate classes */}}
+{{- $params = partial "mod-img/func/params/aggregate/class" (dict "type" "figure" "params" $params) }}
+{{- $params = partial "mod-img/func/params/aggregate/frame-class" $params }}
+{{- $params = partial "mod-img/func/params/aggregate/container-class" $params }}
+
+{{- $server := site.Data.modImg.kroki.server }}
+
+{{- $jsonBody := dict "diagram_source" $inner "diagram_type" $diagram "output_format" "SVG" | jsonify }}
+{{- $args := dict "method" "post" "body" $jsonBody }}
+{{- $imgMap := dict }}
+{{- with resources.GetRemote $server $args }}
+    {{- with .Err }}
+        {{- $img := partial "mod-img/helper/missing" site }}
+        {{- $params = merge $params (dict (slice "imgAttrs" "src") $img.RelPermalink ) }}
+        {{- $imgMap = dict "img" $img "params" $params }}
+        {{- $msg := printf "Unable to get remote diagram — %s." . }}
+        {{- partial "error-msg" (dict "caller" $name "ctx" $ctx "errorMsg" $msg "errorLevel" $errorLevel) }}
+    {{- else }}
+        {{- $params = merge $params (dict (slice "imgAttrs" "src") .RelPermalink ) }}
+        {{- $imgMap = dict "img" . "params" $params }}
+    {{- end }}
+{{- end }}
+{{- partial "mod-img/helper/debug" $params }}
+{{- partial "mod-img/render/container/figure" $imgMap }}

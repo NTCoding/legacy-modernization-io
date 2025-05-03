@@ -1,0 +1,5 @@
+public
+resources/_gen
+node_modules
+yarn.*
+.hugo_build.*

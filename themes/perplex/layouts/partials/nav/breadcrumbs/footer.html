@@ -1,0 +1,31 @@
+<ul class="ul--row meta__list">
+  <li class="meta__item">
+    <a class="meta__icon link link--nav" href="{{ site.Home.RelPermalink }}" title="Home" rel="nofollow">
+        {{- partial "material-symbol" (dict "id" "home" "ctx" . "size" "tiny") -}}
+    </a></li><li class="meta__item">{{ partial "nav/breadcrumbs/separator.html" . }}</li>
+    {{ $n := sub (len .Ancestors) 1 }}
+    {{- range $i, $e := last $n .Ancestors.Reverse -}}
+      <li class="meta__item">
+        {{- $title := partial "inline/check-linktitle" $e }}
+        <a class="meta__text link link--nav" href="{{ .RelPermalink }}" rel="nofollow">
+          {{- partial "render-string" $title -}}
+        </a>{{ partial "nav/breadcrumbs/separator.html" . }}
+      </li>
+    {{- end -}}
+  <li class="meta__item">
+    <a class="meta__text link link--nav" href="{{ .RelPermalink }}" aria-current="page" rel="nofollow">{{- (partial "inline/check-linktitle" . ) | site.Home.RenderString -}}</a>
+  </li>
+</ul>
+
+{{- define "partials/inline/check-linktitle.html" }}
+    {{- $limit := site.Params.limit.linkTitle.max | default 30 }}
+    {{- $errorLevel := site.Params.limit.linkTitle.errorLevel | default "warning" }}
+    {{- $title := partial "render-string" .LinkTitle }}
+    {{- $page := .Page }}
+
+    {{- if gt (len ($title | plainify)) $limit }}
+        {{ $msg := printf "The title %q is too large for a breadcrumb. Shorter is better ( < %d characters)." $title $limit }}
+        {{- partial "error-msg" (dict "caller" "check-linktitle" "ctx" $page "errorMsg" $msg "errorLevel" $errorLevel ) }}
+    {{- end }}
+    {{- return $title }}
+{{- end }}

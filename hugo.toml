@@ -1,17 +1,4 @@
 baseURL = 'https://legacy-modernization.io/'
 languageCode = 'en-us'
 title = 'Legacy-Modernization.io'
-theme = 'ananke'
-
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
-    name = 'Patterns'
-    pageRef = '/patterns'
-    weight = 20
-
-[params]
-mainSections = ["post"]
+theme = 'Perplex'

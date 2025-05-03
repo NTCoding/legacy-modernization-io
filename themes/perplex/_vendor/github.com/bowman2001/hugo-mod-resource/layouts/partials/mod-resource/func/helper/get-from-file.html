@@ -1,0 +1,49 @@
+{{- $name := "mod-resource/func/helper/get-from-file" }}
+
+{{- $file := .file }}
+{{- $ctx := .ctx }}
+{{- $errorLevel := .errorLevel }}
+
+{{- $map := "" }}
+{{- if (in (slice "yaml" "toml" "json") $file.MediaType.SubType ) }}
+    {{- $params := transform.Unmarshal $file }}
+    {{ $url := "" }}
+    {{ with $params.src }}
+        {{- $url = urls.Parse $params.src }}
+    {{ else }}
+        {{- $msg := printf "Missing 'src' parameter in the data file %q" $file }} 
+        {{- partial "error-msg" (dict "caller" $name "ctx" $ctx "errorMsg" $msg "errorLevel" $errorLevel ) }}
+    {{ end }}
+
+    {{- $r := "" }}
+    {{ with $url }}
+        {{- $msg := printf "Can't find the resource %q in data file %q" $url.String $file }}
+        
+        {{- if $url.IsAbs }} {{- /* Remote */}}
+            {{- $resource := try (resources.GetRemote $url.String) }}
+            {{- if $resource }}
+                {{- $r = $resource }}
+            {{- else }}
+                {{- $msg := print $msg ". Unable to fetch remote resource." }}
+                {{- partial "error-msg" (dict "caller" $name "ctx" $ctx "errorMsg" $msg "errorLevel" $errorLevel ) }}
+            {{- end }}
+        {{- else }}
+            {{- $path := (strings.TrimPrefix "./" $url.Path ) }}
+            {{- with $ctx.Page.Resources.GetMatch (print $path "*") }} {{- /* Page */}}
+                {{- $r = . }}
+            {{- else }}
+                {{- with resources.Get $url.Path }} {{- /* Site */}}
+                    {{- $r = . }}
+                {{- end }}
+            {{- end }}    
+        {{- end }}
+    {{ end }}
+    {{- with $r }}
+        {{- $map = (dict "resource" . "params" $params) }}
+    {{- else }}
+        {{- $msg := printf "Can't find a resource in the data file %q" $file }}
+        {{- partial "error-msg" (dict "caller" $name "ctx" $ctx "errorMsg" $msg "errorLevel" $errorLevel) }}
+    {{- end }}
+{{- end }}
+
+{{- return $map }}
