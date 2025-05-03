@@ -1,0 +1,3 @@
+[submodule "legacy-modernization-patterns/themes/ananke"]
+	path = legacy-modernization-patterns/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
