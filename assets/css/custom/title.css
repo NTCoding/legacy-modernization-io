@@ -1,0 +1,12 @@
+@media screen and (min-width: 25em) {
+    .ctrl__title--text span {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        padding-top: .42893rem;
+        margin-bottom: -.42893rem;
+        letter-spacing: .03em;
+        word-spacing: .09em;
+        font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 550; /* Changed from 300 to 450 */
+    }
+}
