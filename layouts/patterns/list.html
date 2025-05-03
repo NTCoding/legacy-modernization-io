@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns mw8 center tc">
+    <p class="f4 lh-copy measure-wide center">{{ .Content }}</p>
+
+    <ul class="list pl0 mt5">
+      {{ range .Pages }}
+        <li class="mb4">
+          <a href="{{ .RelPermalink }}" class="link dim blue f3 fw4">
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </article>
+{{ end }}
