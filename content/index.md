@@ -1,11 +1,11 @@
 ---
-title: "Welcome to Legacy-Modernization-Patterns.io"
+title: "Welcome to Legacy-Modernization.io"
 description: "Patterns, principles and practices for modernizing legacy systems."
 ---
 
 # Welcome to Legacy Modernization Patterns
 
-Welcome to **legacy-modernization-patterns.io**, your go-to resource for exploring patterns and practices to modernize legacy systems. This site is designed to help developers, architects, and organizations transition from outdated systems to modern, scalable, and maintainable solutions.
+Welcome to **legacy-modernization.io**, your go-to resource for exploring patterns and practices to modernize legacy systems. This site is designed to help developers, architects, and organizations transition from outdated systems to modern, scalable, and maintainable solutions.
 
 ## What You'll Find Here
 
