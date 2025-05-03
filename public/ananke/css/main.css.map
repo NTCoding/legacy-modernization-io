@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/nicko/repos/legacy-modernization-patterns/legacy-modernization-patterns",
+	"sourceRoot": "/Users/nicko/repos/legacy-modernization-patterns",
 	"sources": [
 		"ananke/css/main.css"
 	],
