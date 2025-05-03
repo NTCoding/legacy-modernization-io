@@ -10,5 +10,5 @@ theme = 'ananke'
     weight = 10
   [[menus.main]]
     name = 'Patterns'
-    pageRef = '/patterns'
+    url = '/patterns'
     weight = 20
