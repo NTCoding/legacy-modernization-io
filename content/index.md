@@ -1,5 +1,8 @@
 ---
-title: "Welcome to Legacy-Modernization.io"
+menu:
+  main:
+    weight: 10
+title: "Home"
 description: "Patterns, principles and practices for modernizing legacy systems."
 ---
 
