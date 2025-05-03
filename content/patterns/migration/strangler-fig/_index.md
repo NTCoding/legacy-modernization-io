@@ -1,7 +1,15 @@
 ---
 title: "Strangler Fig Pattern"
 description: "Gradually replace legacy systems by building new functionality around them."
+subtitle: false
+menu:
+  doc:
+    name: Strangler Fig
+    parent: migration
+    pre: rule
+categories: [migration]
 tags: ["incremental modernization"]
+weight: 9
 ---
 
 # Strangler Fig Pattern

@@ -11,4 +11,6 @@ cascade:
 url: /patterns
 ---
 
-test 123
+This section lists common patterns encountered when modernizing legacy systems. These patterns touch on different aspects of modernization from technical integrations to organization to DDD and domain modelling.
+
+Remember that there are common patterns but every modernization journey is unique and patterns can appear and be applied differently in different contexts.
