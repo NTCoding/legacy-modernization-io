@@ -43,17 +43,6 @@
     </span></li>
 {{ end }}
 
-{{ define "end" }}
-  <li class="page-nav__li"><a href="{{ .RelPermalink }}" class="page-nav__link page-nav__link--next link link--nav">
-      <span class="page-nav__itemcol">
-          {{ partial "doc/nav/menu-icon.html" . }}
-      </span>
-          {{ partial "nav/page/parent-title.html" . }}
-      <span class="page-nav__icon page-nav__icon--arrow">
-          {{- partial "material-symbol" (dict "id" "north" "ctx" . "size" "normal") -}}
-      </span>
-    </a></li>
-{{ end }}
 
 {{ define "arrow" }}
     {{/* TODO: Up or down the content hierarchy? */}}
