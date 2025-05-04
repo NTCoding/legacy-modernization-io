@@ -1,0 +1,11 @@
+baseURL: 'https://legacy-modernization.io/'
+languageCode: 'en-us'
+title: 'Legacy-Modernization.io'
+theme: 'perplex'
+
+Menus:
+  main_social:
+    - name: GitHub
+      pre: github
+      url: "https://github.com/NTCoding/legacy-modernization-patterns/"
+      weight: 1
