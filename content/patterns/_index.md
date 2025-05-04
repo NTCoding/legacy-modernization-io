@@ -11,9 +11,10 @@ cascade:
 url: /patterns
 resources:
 - name: featured
-  src: magicpattern-ixxjruC7Gg4-unsplash.jpg
+  src: magicpattern-ixxjruC7Gg4-unsplash.png
   params:
-    alt: A levitating book seen through an opening in a wall of books
+    alt: Patterns
+    caption: "(Photo by [Unsplash](https://unsplash.com/photos/magicpattern-ixxjruC7Gg4))"
 ---
 
 This section lists common patterns encountered when modernizing legacy systems. These patterns touch on different aspects of modernization from technical integrations to organization to DDD and domain modelling.

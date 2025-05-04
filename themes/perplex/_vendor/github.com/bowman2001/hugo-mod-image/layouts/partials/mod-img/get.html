@@ -12,11 +12,29 @@
 
 {{ with (partial "mod-resource/func/get-with-params" $args) }}
     {{ $resource := .resource }}
-    {{ if and $resource (eq (printf "%T" $resource) "*resources.Image") }}
+    {{/* Check for both Image and resourceAdapter types */}}
+    {{ if and $resource (or (eq (printf "%T" $resource) "*resources.Image") 
+                            (and (eq (printf "%T" $resource) "*resources.resourceAdapter") 
+                                 (eq $resource.ResourceType "image"))) }}
         {{ $imgMap = dict "img" $resource "params" .params }}
     {{ else }}
         {{ $imgMap = dict "img" (partial "mod-img/helper/missing" $ctx) "params" .params }}
-        {{ $msg := printf "The resource %q is not a valid image resource." $src }}
+        {{/* Enhanced error diagnostics */}}
+        {{ $resourceInfo := dict
+            "type" (printf "%T" $resource)
+            "resourceType" (and $resource $resource.ResourceType)
+            "mediaType" (and $resource $resource.MediaType)
+            "name" (and $resource $resource.Name)
+            "adaptedFrom" (and $resource $resource.Name)
+        }}
+        {{ $msg := printf "The resource %q is not a valid image resource.\nResource details:\n- Type: %s\n- Resource Type: %v\n- Media Type: %v\n- Name: %v\n- Adapted From: %v" 
+            $src 
+            $resourceInfo.type
+            $resourceInfo.resourceType
+            $resourceInfo.mediaType
+            $resourceInfo.name
+            $resourceInfo.adaptedFrom
+        }}
         {{ partial "error-msg" (dict "caller" $name "ctx" $ctx "errorMsg" $msg "errorLevel" $errorLevel) }}
     {{ end }}
 {{ else }}
