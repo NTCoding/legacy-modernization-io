@@ -9,3 +9,9 @@ Menus:
       pre: github
       url: "https://github.com/NTCoding/legacy-modernization-patterns/"
       weight: 1
+
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+  author: authors
