@@ -1,0 +1,35 @@
+{{- define "main" -}}
+    <div id="l-content-box" class="l-box l-box--full">
+        <div>
+            {{- with .Content }}
+            <div class="md md--sans md--h-sans md--list md--margin-full">
+                {{- partial "replacements.html" . -}}
+            </div>
+            {{- end }}
+            <header class="page-header">
+                <div class="title title--sans title--bg title--news padding-full">
+                    {{- partial "file/vscode_start.html" . }}
+                    {{- partial "title/title.html" . }}
+                    {{- partial "file/vscode_end.html" . }}
+                </div>
+            </header>
+            <ul class="page-list">
+                {{- $n := 5 }}
+                {{- with site.Params.paginateNr }}{{ $n = . }}{{ end }}
+                {{- range (.Paginate .RegularPages $n).Pages.ByDate.Reverse }}
+                    <li class="li-box">
+                        {{- .Render "li-full" }}
+                        <hr class="news-separator">
+                    </li>
+                {{- end }}
+            </ul>
+        </div>
+        <footer class="page-footer margin-full">
+            <div class="meta meta--foot">
+                {{- partial "nav/breadcrumbs/footer.html" . }}
+            </div>
+            <hr>
+            {{- partial "nav/paginator.html" . }}
+        </footer>
+    </div>
+{{- end -}}

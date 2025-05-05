@@ -1,0 +1,28 @@
+{{- define "main" -}}
+  <div id="l-content-box" class="l-box l-box--full">
+    <article id="l-content" data-pagefind-body>
+      <header class="page-header">
+
+        <div class="title title--sans margin-full">
+            {{- partial "title/title.html" . }}
+            {{- partial "title/subtitle.html" . }}
+        </div>
+          <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
+      </header>
+      <div class="md md--sans md--h-sans md--margin-full">
+          {{- partial "replacements.html" .Content -}}
+      </div>
+      <div class="margin-full">
+        {{- partial "nav/related/small-cards.html" . }}
+      </div>
+    </article>
+    <footer class="page-footer margin-full">
+      <div class="meta meta--foot">
+          {{- partial "nav/taxo_and_breadcrumbs.html" . }}
+          {{- partial "date/updated.html" . }}
+      </div>
+      <hr>
+        {{- partial "blog/nav/pages.html" . }}
+    </footer>
+  </div>
+{{- end -}}
