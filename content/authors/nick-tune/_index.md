@@ -46,7 +46,7 @@ Nick Tune is a Senior Staff Engineer at PayFit and the author of "Architecture M
 - [LinkedIn](https://www.linkedin.com/in/nick-tune/)
 - [Bluesky](https://bsky.app/profile/nick-tune.me)
 - [Email](mailto:nick@ntcoding.co.uk)
-- [Personal Website](https://ntcoding.co.uk)
+- [Personal Website](https://nick-tune.me)
 
 **Books by Nick Tune**
 
