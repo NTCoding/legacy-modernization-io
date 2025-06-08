@@ -6,7 +6,7 @@ menu:
   doc:
     identifier: migration
     name: Migration
-    pre: flight_takeoff
+    pre: redo
     weight: 1
 ---
 

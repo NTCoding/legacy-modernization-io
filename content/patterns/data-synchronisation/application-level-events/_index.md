@@ -6,7 +6,7 @@ menu:
   doc:
     name: Application-level Events
     parent: data-synchronisation
-    pre: rule
+    pre: event
 categories: [data-synchronisation]
 tags: []
 weight: 2
