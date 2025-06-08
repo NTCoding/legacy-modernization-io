@@ -6,8 +6,7 @@ menu:
     name: Data Synchronization
     identifier: data-synchronization
     weight: 2
-pre: sync
-categories: [data-synchronization]
+    pre: sync_alt
 ---
 
 Welcome to the Data Synchronization patterns section. Explore approaches for keeping data in sync during modernization projects.
