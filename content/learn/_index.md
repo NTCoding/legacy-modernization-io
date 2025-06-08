@@ -13,3 +13,5 @@ cascade:
 math: true
 mermaid: true
 ---
+
+<!-- This page is intentionally left minimal. See /learn/learning/index.md for the main Learn content. -->
