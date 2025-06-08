@@ -15,3 +15,8 @@ taxonomies:
   category: categories
   series: series
   author: authors
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

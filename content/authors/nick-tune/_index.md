@@ -36,7 +36,7 @@ resources:
 
 <!-- Removed Markdown image to avoid Hugo's render-image.html partial errors with remote images -->
 
-Nick Tune is a Senior Staff Engineer at PayFit and the author of "Architecture Modernization" (Manning). With a passion for helping organizations modernize their software systems.
+Nick Tune is a Senior Staff Engineer at PayFit and the author of "Architecture Modernization" (Manning), with a passion for helping organizations modernize their software systems.
 <!--more-->
 
 
@@ -50,5 +50,13 @@ Nick Tune is a Senior Staff Engineer at PayFit and the author of "Architecture M
 
 **Books by Nick Tune**
 
-- [Architecture Modernization: Socio-Technical Alignment of Software, Strategy, and Structure](https://www.amazon.com/dp/1633438155)
-- [Patterns, Principles, and Practices of Domain-Driven Design](https://www.amazon.com/dp/1118714709)
+<table>
+  <tr>
+    <td>
+      {{< figure src="/authors/nick-tune/architecture-modernization.jpg" title="" link="https://www.amazon.com/dp/1633438155" width="220px" >}}
+    </td>
+    <td>
+      {{< figure src="/authors/nick-tune/ppp-of-ddd.jpg" title="" link="https://www.amazon.com/dp/1118714709" width="220px" >}}
+    </td>
+  </tr>
+</table>
