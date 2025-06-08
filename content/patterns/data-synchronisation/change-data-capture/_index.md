@@ -13,3 +13,19 @@ weight: 1
 ---
 
 TODO
+
+## How It Works
+
+TODO
+
+## Benefits
+
+- TODO
+
+## Drawbacks
+
+- TODO
+
+## When to Use
+
+TODO

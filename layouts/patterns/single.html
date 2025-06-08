@@ -1,35 +1,30 @@
 {{- define "sidebar" }}{{ partial "doc/nav/sidebar.html" . }}{{ end }}
 {{- define "main" }}
-    <div id="l-content-box" class="l-box l-box--doc">
-        <div id="l-content" data-pagefind-body>
-            <header class="page-header">
-                <div class="meta meta--head meta--left-doc" data-pagefind-ignore>
-                    <div class="margin-doc">{{ partial "title/titlehead.html" . }}</div>
-                    {{- partial "nav/breadcrumbs/header.html" . }}
-                    {{- partial "date/published_date.html" . }}
-                </div>
-                <div class="title title--sans margin-doc">
-                    {{- partial "title/title.html" . }}
-                    {{- partial "title/subtitle.html" . }}
-                </div>
-                <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
-            </header>
-            {{- with .Content }}
-                <div class="md md--sans md--h-sans md--margin-doc">
-                    {{- partial "replacements.html" . }}
-                </div>
-            {{- end }}
-        </div>
-        <div class="related margin-doc">
-            {{- partial "nav/related/small-cards.html" . }}
-        </div>
-        <footer class="page-footer margin-doc">
-            <div class="meta meta--foot">
-                {{- partial "nav/taxo_and_breadcrumbs.html" . }}
-                {{- partial "date/updated.html" . }}
-            </div>
-            <hr>
-            {{- partial "doc/nav/pages.html" . }}
-        </footer>
+<div id="l-content-box" class="l-box l-box--full">
+  <article id="l-content" data-pagefind-body>
+    <header class="page-header page-header--left">
+      <div class="title title--sans">
+        <hr>
+        {{- partial "file/vscode_start.html" .Page }}
+        {{- partial "title/title.html" . }}
+        {{- partial "title/subtitle.html" . }}
+        {{- partial "file/vscode_end.html" .Page }}
+      </div>
+      <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
+    </header>
+    <div class="md md--sans md--h-sans md--margin-full">
+      {{- partial "replacements.html" .Content -}}
     </div>
-{{- end }}
+    <div class="margin-full">
+      {{- partial "nav/related/small-cards.html" . }}
+    </div>
+  </article>
+  <footer class="page-footer margin-full">
+    <hr>
+    <div class="meta meta--foot">
+      {{- partial "nav/taxo_and_breadcrumbs.html" . }}
+      {{- partial "date/updated.html" . }}
+    </div>
+  </footer>
+</div>
+{{- end -}}
