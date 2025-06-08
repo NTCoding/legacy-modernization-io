@@ -1,15 +1,15 @@
 ---
-title: "Migrate Reads First"
+title: "Shared Database"
 description: "TODO"
 subtitle: false
 menu:
   doc:
-    name: Migrate Reads First
-    parent: migration
-    pre: visibility
-categories: [migration]
+    name: Shared Database
+    parent: data-synchronization
+    pre: storage
+categories: [data-synchronization]
 tags: []
-weight: 2
+weight: 10
 ---
 
 TODO

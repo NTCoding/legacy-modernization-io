@@ -1,15 +1,15 @@
 ---
-title: "Migrate Reads First"
+title: "Legacy Event Republishing"
 description: "TODO"
 subtitle: false
 menu:
   doc:
-    name: Migrate Reads First
+    name: Legacy Event Republishing
     parent: migration
-    pre: visibility
+    pre: replay
 categories: [migration]
 tags: []
-weight: 2
+weight: 20
 ---
 
 TODO

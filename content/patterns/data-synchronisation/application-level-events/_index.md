@@ -5,9 +5,9 @@ subtitle: false
 menu:
   doc:
     name: Application-level Events
-    parent: data-synchronisation
+    parent: data-synchronization
     pre: event
-categories: [data-synchronisation]
+categories: [data-synchronization]
 tags: []
 weight: 2
 ---

@@ -5,9 +5,9 @@ subtitle: false
 menu:
   doc:
     name: Bi-directional Sync
-    parent: data-synchronisation
-    pre: compare_arrows
-categories: [data-synchronisation]
+    parent: data-synchronization
+    pre: sync_alt
+categories: [data-synchronization]
 tags: []
 weight: 3
 ---

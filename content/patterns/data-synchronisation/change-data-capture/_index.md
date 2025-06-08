@@ -5,9 +5,9 @@ subtitle: false
 menu:
   doc:
     name: Change Data Capture
-    parent: data-synchronisation
+    parent: data-synchronization
     pre: track_changes
-categories: [data-synchronisation]
+categories: [data-synchronization]
 tags: []
 weight: 1
 ---

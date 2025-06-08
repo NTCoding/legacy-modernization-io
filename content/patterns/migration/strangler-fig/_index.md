@@ -9,7 +9,7 @@ menu:
     pre: nature
 categories: [migration]
 tags: ["incremental modernization"]
-weight: 9
+weight: 1
 ---
 
 # Strangler Fig Pattern
