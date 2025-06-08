@@ -5,7 +5,7 @@ menu:
   doc:
     name: Organization
     identifier: organization
-    pre: rule
+    pre: groups
     weight: 3
 ---
 

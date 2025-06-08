@@ -6,7 +6,7 @@ menu:
   doc:
     name: Migrate Reads First
     parent: migration
-    pre: rule
+    pre: visibility
 categories: [migration]
 tags: []
 weight: 10

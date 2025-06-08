@@ -6,7 +6,7 @@ menu:
   doc:
     name: Bi-directional Sync
     parent: data-synchronisation
-    pre: rule
+    pre: compare_arrows
 categories: [data-synchronisation]
 tags: []
 weight: 3

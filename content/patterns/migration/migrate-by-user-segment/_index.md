@@ -6,7 +6,7 @@ menu:
   doc:
     name: Migrate by User Segment
     parent: migration
-    pre: rule
+    pre: group_work
 categories: [migration]
 tags: []
 weight: 14

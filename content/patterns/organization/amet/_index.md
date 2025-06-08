@@ -6,7 +6,7 @@ menu:
   doc:
     name: AMET
     parent: organization
-    pre: rule
+    pre: person
 categories: [organization]
 tags: []
 weight: 1

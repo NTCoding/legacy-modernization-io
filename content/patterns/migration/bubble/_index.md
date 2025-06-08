@@ -6,7 +6,7 @@ menu:
   doc:
     name: Bubble
     parent: migration
-    pre: rule
+    pre: bubble_chart
 categories: [migration]
 tags: []
 weight: 12

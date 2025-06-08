@@ -6,7 +6,7 @@ menu:
   doc:
     name: Strangler Fig
     parent: migration
-    pre: rule
+    pre: nature
 categories: [migration]
 tags: ["incremental modernization"]
 weight: 9

@@ -6,7 +6,7 @@ menu:
   doc:
     name: Migrate Writes First
     parent: migration
-    pre: rule
+    pre: edit_note
 categories: [migration]
 tags: []
 weight: 11

@@ -6,6 +6,7 @@ menu:
     name: Patterns
     identifier: patterns
     weight: 20
+pre: dashboard
 cascade:
   toc: true
 url: /patterns

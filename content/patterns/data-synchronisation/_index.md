@@ -5,7 +5,7 @@ menu:
   doc:
     name: Data Synchronisation
     identifier: data-synchronisation
-    pre: rule
+    pre: sync
     weight: 2
 ---
 

@@ -1,15 +1,15 @@
 ---
-title: "Change Data Capture"
+title: "Application-level Events"
 description: "TODO"
 subtitle: false
 menu:
   doc:
-    name: Change Data Capture
+    name: Application-level Events
     parent: data-synchronisation
-    pre: track_changes
+    pre: notifications
 categories: [data-synchronisation]
 tags: []
-weight: 1
+weight: 2
 ---
 
 TODO
