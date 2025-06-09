@@ -30,7 +30,7 @@
   <div style="max-width: 1100px; margin: 0 auto;">
     <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 2.2rem; text-align: center; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;">Featured Patterns</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
-      {{ $featured := slice "/patterns/migration/strangler-fig/" "/patterns/migration/bubble/" "/patterns/migration/legacy-event-republishing/" }}
+      {{ $featured := slice "/patterns/migration/strangler-fig/" "/patterns/migration/bubble/" "/patterns/migration/legacy-event-republishing/" "/patterns/migration/front-vs-back-order/" "/patterns/migration/expose-legacy-assetts/" }}
       {{ range $featured }}
         {{ with site.GetPage . }}
           <div style="flex: 1 1 300px; max-width: 340px; min-width: 260px; background: var(--c-bg-alt, #f7f7f9); border-radius: 1.2rem; box-shadow: none; padding: 2.5rem 2.5rem 2.5rem 2.5rem; display: flex; flex-direction: column; align-items: flex-start;">
