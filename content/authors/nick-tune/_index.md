@@ -15,7 +15,7 @@ follow_icons:
   url: https://github.com/ntcoding
 - name: LinkedIn
   icon: linkedin
-  url: https://www.linkedin.com/in/nick-tune/
+  url: https://www.linkedin.com/company/legacy-modernization-io
 contact_icons:
 - name: Email
   icon: gmail
@@ -43,8 +43,8 @@ Nick Tune is a Senior Staff Engineer at PayFit and the author of "Architecture M
  Nick specializes in domain-driven design, event-driven architecture, and large-scale system modernization. He regularly shares insights through writing, speaking, and consulting, empowering teams to deliver sustainable, modern software solutions.
 
 - [GitHub](https://github.com/ntcoding)
-- [LinkedIn](https://www.linkedin.com/in/nick-tune/)
-- [Bluesky](https://bsky.app/profile/nick-tune.me)
+- [LinkedIn](https://www.linkedin.com/company/legacy-modernization-io)
+- [Bluesky](https://bsky.app/profile/legacy-modernization.io)
 - [Email](mailto:nick@ntcoding.co.uk)
 - [Personal Website](https://nick-tune.me)
 
