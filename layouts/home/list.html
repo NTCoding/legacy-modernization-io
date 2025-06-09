@@ -1,0 +1,50 @@
+{{- define "main" -}}
+<!-- Hero Section Start -->
+<section class="hero-section" style="background: var(--c-bg-alt, #f7f7f9); color: var(--c-text, #222); padding: 7rem 0 6rem 0; text-align: center; border-bottom: 1px solid #e0e0e0; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.03);">
+  <div class="hero-content" style="max-width: 900px; margin: 0 auto;">
+    <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1.3rem; letter-spacing: -1px; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;">
+      Modernize with Confidence – convert your legacy liability into a competitive advantage
+    </h1>
+    <p style="font-size: 1.7rem; margin-bottom: 2.2rem; color: var(--c-text-light, #555); font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 500;">Legacy-modernization.io is a collection of resources to help guide you on your modernization journey.</p>
+    <div style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+      <a href="/patterns/" class="hero-btn" style="display: inline-block; background: #00bfae; color: #fff; padding: 1.2rem 3rem; border-radius: 2rem; font-size: 1.5rem; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 600; text-decoration: none; transition: background 0.2s; box-shadow: 0 2px 8px 0 rgba(0,191,174,0.08); letter-spacing: -0.5px;">Explore Patterns</a>
+      <a href="/learn/" class="hero-btn" style="display: inline-block; background: #0077b6; color: #fff; padding: 1.2rem 3rem; border-radius: 2rem; font-size: 1.5rem; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 600; text-decoration: none; transition: background 0.2s; box-shadow: 0 2px 8px 0 rgba(0,119,182,0.08); letter-spacing: -0.5px;">Learning Resources</a>
+    </div>
+    <div style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; font-size: 2.1rem;">
+      <a href="https://www.linkedin.com/company/legacy-modernization-io/" target="_blank" rel="noopener" style="display: flex; align-items: center; text-decoration: none;" aria-label="LinkedIn">
+        <img src="/home/li-logo.png" alt="LinkedIn" style="height: 2.6rem; display: block;" />
+      </a>
+      <a href="https://bsky.app/profile/legacy-modernization.io" target="_blank" rel="noopener" style="display: flex; align-items: center; text-decoration: none;" aria-label="BlueSky">
+        <img src="/home/blusky.png" alt="BlueSky" style="height: 2.6rem; display: block;" />
+      </a>
+    </div>
+  </div>
+</section>
+<!-- Hero Section End -->
+
+<div id="l-content-box" class="l-box l-box--full">
+    <article id="l-content" data-pagefind-body>
+      <header class="page-header">
+        <div class="title title--sans margin-full">
+            {{- partial "title/title.html" . }}
+            {{- partial "title/subtitle.html" . }}
+        </div>
+        <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
+      </header>
+      <div class="md md--sans md--h-sans md--margin-full">
+          {{- partial "replacements.html" .Content -}}
+      </div>
+      <div class="margin-full">
+        {{- partial "nav/related/small-cards.html" . }}
+      </div>
+    </article>
+    <footer class="page-footer margin-full">
+      <div class="meta meta--foot">
+          {{- partial "nav/taxo_and_breadcrumbs.html" . }}
+          {{- partial "date/updated.html" . }}
+      </div>
+      <hr>
+        {{- partial "blog/nav/pages.html" . }}
+    </footer>
+  </div>
+{{- end -}}
