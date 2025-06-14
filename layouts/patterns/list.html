@@ -28,30 +28,33 @@
           <!-- For the main patterns page, show image as an aside (to the right) -->
           <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
         {{- end -}}
-        {{- if not (eq .CurrentSection .FirstSection) -}}
-          {{ partial "author-aside.html" (dict "class" "featured-image" "context" .) }}
-        {{- end -}}
    </header>
-   
-      {{- with .Content }}
-    
-      <div class="md md--sans md--h-sans md--list md--margin-doc">
-        {{- partial "replacements.html" . -}}
+   <div class="pattern-grid">
+      <div class="pattern-main-content">
+        {{- with .Content }}
+        <div class="md md--sans md--h-sans md--list md--margin-doc">
+          {{- partial "replacements.html" . -}}
+        </div>
+        {{- end }}
+        <nav class="section-nav margin-doc">
+          <ul>
+            {{- range .Pages -}}
+            <li class="section-nav__li">{{ .Render "li" }}</li>
+            {{- end -}}
+          </ul>
+        </nav>
+        {{- with .Page.GetPage "after" }}
+        <section class="md md--sans md--h-sans md--margin-doc">
+          {{- partial "replacements.html" .Content }}
+        </section>
+        {{- end }}
       </div>
-      {{- end }}
-    </div>
-    <nav class="section-nav margin-doc">
-      <ul>
-        {{- range .Pages -}}
-        <li class="section-nav__li">{{ .Render "li" }}</li>
-        {{- end -}}
-      </ul>
-    </nav>
-    {{- with .Page.GetPage "after" }}
-    <section class="md md--sans md--h-sans md--margin-doc">
-      {{- partial "replacements.html" .Content }}
-    </section>
-    {{- end }}
+      {{- if not (eq .CurrentSection .FirstSection) -}}
+        <div class="pattern-author-aside">
+          {{ partial "author-aside.html" (dict "class" "featured-image" "context" .) }}
+        </div>
+      {{- end -}}
+   </div>
   </div>
   <footer class="page-footer margin-doc">
     <div class="meta meta--foot">

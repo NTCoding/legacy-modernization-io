@@ -56,24 +56,34 @@
   color: #005580;
 }
 
-/* Float featured-image (including author aside) to the right for desktop */
-.featured-image {
-  float: right;
-  clear: right;
-  width: 320px;
-  margin-left: 1.2rem;
-  margin-right: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 0.5rem;
+/* Pattern grid for main content and author aside */
+.pattern-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 0 2.5rem;
+  align-items: start;
+}
+.pattern-main-content {
+  order: 1;
+}
+.pattern-author-aside {
+  order: 2;
+}
+@media (max-width: 900px) {
+  .pattern-grid {
+    display: block;
+  }
+  .pattern-main-content, .pattern-author-aside {
+    order: unset;
+  }
 }
 
-/* Responsive: stack below content on small screens */
-@media (max-width: 900px) {
-  .featured-image {
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 2rem;
-  }
+/* Float featured-image (including author aside) to the right for desktop */
+.featured-image {
+  float: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
 }
