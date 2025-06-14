@@ -10,6 +10,4 @@ menu:
     weight: 1
 ---
 
-TODO
-
-TODO
+This section catalogues patterns for incrementally migrating from your current to desired architecture. In a typical modernization initiative, multiple or all of these patterns might be applied at various points along the journey.
