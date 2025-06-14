@@ -1,6 +1,6 @@
 ---
 title: Migration
-description: Migration patterns
+description: Patterns for incrementally migrating from your current to desired architecture
 weight: 1
 menu:
   doc:

@@ -20,4 +20,4 @@ resources:
 
 This section lists common patterns encountered when modernizing legacy systems. These patterns touch on different aspects of modernization from technical integrations to organization to DDD and domain modelling.
 
-Remember that there are common patterns but every modernization journey is unique and patterns can appear and be applied differently in different contexts.
+The patterns are typically general descriptions of overall charachteristics and therefore the application and implementation of patterns can look quite different in different contexts. 
