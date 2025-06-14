@@ -12,8 +12,6 @@ tags: ["incremental modernization"]
 weight: 1
 ---
 
-# Strangler Fig Pattern
-
 The Strangler Fig pattern is used to gradually migrate away from a legacy system. As each new piece of code is built, traffic is directed away from the old system to the new piece.
 
 ## How It Works
