@@ -22,8 +22,14 @@
           {{- partial "title/title.html" . }}
           {{- partial "title/subtitle.html" . }}
         </div>
- <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>      </header>
+        {{- if eq $level "first" -}}
+          <!-- For the main patterns page, show image as an aside (to the right) -->
+          <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
+        {{- end -}}
+   </header>
+   
       {{- with .Content }}
+    
       <div class="md md--sans md--h-sans md--list md--margin-doc">
         {{- partial "replacements.html" . -}}
       </div>
