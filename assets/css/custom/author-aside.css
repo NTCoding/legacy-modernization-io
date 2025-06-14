@@ -1,0 +1,31 @@
+.author-aside {
+  float: right;
+  clear: right;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  width: 320px;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1.5rem 1rem;
+  font-size: 1rem;
+}
+@media (max-width: 900px) {
+  .author-aside {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+}
+.author-aside__portrait {
+  text-align: center;
+}
+.author-aside__info {
+  text-align: center;
+}
+.author-aside__links a {
+  color: #0072b1;
+  text-decoration: underline;
+  font-size: 0.95em;
+}

@@ -1,0 +1,79 @@
+.author-aside-card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+  padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+  max-width: 340px;
+  margin: 2rem auto 2rem auto;
+  text-align: center;
+  font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+}
+.author-aside-card__portrait img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+}
+.author-aside-card__name {
+  font-size: 1.45em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.3em;
+  color: #222;
+}
+.author-aside-card__title {
+  font-size: 1.05em;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 1em;
+}
+.author-aside-card__bio {
+  font-size: 1em;
+  color: #444;
+  margin-bottom: 1.2em;
+  line-height: 1.5;
+}
+.author-aside-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  justify-content: center;
+}
+.author-aside-card__links a {
+  color: #0072b1;
+  background: #f5f7fa;
+  border-radius: 0.5em;
+  padding: 0.25em 0.9em;
+  font-size: 0.98em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s;
+}
+.author-aside-card__links a:hover {
+  background: #e6f0fa;
+  color: #005580;
+}
+
+/* Float featured-image (including author aside) to the right for desktop */
+.featured-image {
+  float: right;
+  clear: right;
+  width: 320px;
+  margin-left: 1.2rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* Responsive: stack below content on small screens */
+@media (max-width: 900px) {
+  .featured-image {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
