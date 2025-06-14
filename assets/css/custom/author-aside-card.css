@@ -7,32 +7,34 @@
   margin: 2rem auto 2rem auto;
   text-align: center;
   font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 .author-aside-card__portrait img {
   width: 96px;
   height: 96px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
 }
 .author-aside-card__name {
   font-size: 1.45em;
   font-weight: 700;
   letter-spacing: 0.01em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.2em;
   color: #222;
 }
 .author-aside-card__title {
   font-size: 1.05em;
   font-weight: 500;
   color: #666;
-  margin-bottom: 1em;
+  margin-bottom: 0.7em;
 }
 .author-aside-card__bio {
   font-size: 1em;
   color: #444;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   line-height: 1.5;
 }
 .author-aside-card__links {
@@ -40,6 +42,7 @@
   flex-wrap: wrap;
   gap: 0.7em;
   justify-content: center;
+  margin-bottom: 1.5rem;
 }
 .author-aside-card__links a {
   color: #0072b1;
@@ -54,6 +57,62 @@
 .author-aside-card__links a:hover {
   background: #e6f0fa;
   color: #005580;
+}
+
+/* Call to action section */
+.author-aside-card__cta {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #f0f0f0;
+  text-align: center;
+  position: relative;
+  background-color: #f9fbfd;
+  border-radius: 0 0 1rem 1rem;
+  padding: 1.5rem 1rem 1rem;
+  margin: 2.5rem -1.5rem -1.5rem -1.5rem;
+}
+
+/* Decorative separator element */
+.author-aside-card__cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 25%;
+  right: 25%;
+  height: 2px;
+  background: #0072b1;
+}
+
+.author-aside-card__cta h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #0072b1;
+  margin-bottom: 1rem;
+}
+
+.author-aside-card__cta p {
+  font-size: 0.95em;
+  color: #444;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #0072b1;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0.75em 1.5em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin-bottom: 0.5rem;
+}
+
+.cta-button:hover {
+  background: #005c8f;
+  color: #fff;
 }
 
 /* Pattern grid for main content and author aside */
@@ -86,4 +145,11 @@
   margin-right: 0;
   margin-bottom: 2rem;
   margin-top: 0.5rem;
+}
+
+.separator-icon {
+  margin-bottom: 0.75rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
