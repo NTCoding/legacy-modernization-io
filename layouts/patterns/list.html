@@ -1,4 +1,6 @@
-{{- define "sidebar" }}{{ partial "doc/nav/sidebar.html" . }}{{ end -}}
+{{- define "sidebar" }}
+{{/* No author aside here */}}
+{{ end -}}
 {{- define "main" -}}
 <div id="l-content-box" class="l-box l-box--doc">
   <div id="l-content">
@@ -25,6 +27,9 @@
         {{- if eq $level "first" -}}
           <!-- For the main patterns page, show image as an aside (to the right) -->
           <aside class="featured-image">{{ partial "img/featured.html" . }}</aside>
+        {{- end -}}
+        {{- if not (eq .CurrentSection .FirstSection) -}}
+          {{ partial "author-aside.html" (dict "class" "featured-image" "context" .) }}
         {{- end -}}
    </header>
    

@@ -1,4 +1,6 @@
-{{- define "sidebar" }}{{ partial "doc/nav/sidebar.html" . }}{{ end }}
+{{- define "sidebar" }}
+{{/* No author aside here */}}
+{{ end }}
 {{- define "main" }}
 <div id="l-content-box" class="l-box l-box--full">
   <article id="l-content" data-pagefind-body>
@@ -14,6 +16,7 @@
     <div class="md md--sans md--h-sans md--margin-full">
       {{- partial "replacements.html" .Content -}}
     </div>
+    {{ partial "author-aside.html" . }}
     <div class="margin-full">
       {{- partial "nav/related/small-cards.html" . }}
     </div>
