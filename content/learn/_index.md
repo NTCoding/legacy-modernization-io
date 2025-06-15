@@ -6,7 +6,7 @@ menu:
   main:
     name: Learn
     identifier: learn
-    weight: 200
+    weight: 100
 url: /learn
 cascade:
   toc: false

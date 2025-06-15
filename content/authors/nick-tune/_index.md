@@ -6,7 +6,7 @@ date: 2023-04-25 14:53:30+02:00
 menu:
   main:
     name: About
-    weight: 100
+    weight: 300
 aliases:
 - /about
 follow_icons:
