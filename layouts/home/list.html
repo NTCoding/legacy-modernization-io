@@ -34,7 +34,7 @@
       {{ $descriptions := slice 
         "The Strangler Fig pattern is a metaphor invented by Martin Fowler to describe a gradual migration away from a legacy system to a new system (aka the strangler fig application)."
         "The Bubble pattern is about creating a new domain model to encapsulate and gradually replace a specific subdomain/subsystem. Eventually, the bubble should pop."
-        "Legacy Event Republishing helps modernize systems by capturing and replaying events from legacy applications, supporting incremental migration to event-driven architectures."
+        "Legacy Event Republishing involves capturing and translating legacy events into the target domain model"
       }}
       {{ range $i, $f := $featured }}
         {{ with site.GetPage $f }}
