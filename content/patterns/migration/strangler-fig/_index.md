@@ -12,18 +12,20 @@ tags: ["incremental modernization"]
 weight: 1
 ---
 
+The Strangler Fig pattern is a metaphor first defined by Martin Fowler to describe a gradual migration from a legacy system to a new modernized application. The Strangler Fig Application lives alongside the legacy slowly taking away all it's responsibilities until there is nothing left of the legacy.
+
 <div class="title title--sans title--third">
-  <img src="/patterns/magicpattern-ixxjruC7Gg4-unsplash.png" alt="Strangler Fig Pattern" style="max-width: 100%; width: 100%; height: auto;">
+  <img src="/patterns/migration/strangler-fig/stranger-fig.png" alt="Strangler Fig Pattern" style="max-width: 100%; width: 100%; height: auto;">
 </div>
 
-The Strangler Fig pattern is used to gradually migrate away from a legacy system. As each new piece of code is built, traffic is directed away from the old system to the new piece.
+Proponents of the strangler fig often include the concept of an interceptor or router which is able to take incoming request or messages intended for the legacy and route them to the strangler fig when the relevant functionality exists there.
 
 ## How It Works
 
 1. Identify a part of the system to migrate
-2. Move or re-implement the functionality outside of the legacy system
-3. Introduce a router that is able to intercept and redirect requests
-4. Route request to the new code instead of the old
+2. Move or re-implement the functionality outside of the legacy system in the strangler fig application
+3. Introduce an interceptor/router that is able to intercept and redirect requests
+4. Route specific requests to the new code instead of the old
 5. Repeat as required
 
 ## Benefits
@@ -39,13 +41,14 @@ The Strangler Fig pattern is used to gradually migrate away from a legacy system
 - **Incomplete Migration**: There is no pressure to finish which you might never finish, and the result can be having to maintain the legacy and new system forever.
 - **Incompatible Interfaces**: Routing requests from the old to the new assumes the interfaces will be similar, but in many cases the old domain boundaries and interfaces will require significant redesign and so a simple re-routing will not be possible. (E.g. [Poor Modularity](../../legacy-challenges/poor-modularity/) and [Semantic Drift](../../legacy-challenges/semantic-drift/) )
 - **Logic in Infrastructure**: Where translation is required, it can easily end up in the router without good discipline. This can impact reliability and make it harder to diagnose problems.
-- **Introducing a router**: Introducing a router that is able to accept all requests of a certain type may not be straightforward.
+- **Introducing a router**: Introducing a router that is able to accept all requests of a certain type may not be straightforward. You may need to introduce multiple routers (e.g. for front and back office) and ensure they are synchronised
 
 ## Alternative Approaches
 
 1. As new code is built with new APIs based on a new domain model, it is sometimes easier to simply ask each client to migrate to the new API.
 2. [Inner-Sourced Migration](../../organization/inner-sourced-migration/)
 3. [Bubble](../bubble/_index.md)
+4. Client-side Feature flags: The decision of where to send a request/message lives in the client and the client decides where to send the request based on the value of a feature flag.
 
 ## When to Use
 
