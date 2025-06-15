@@ -45,6 +45,7 @@ Although the Strangler Fig Pattern is just a metaphor and doesn't prescribe any 
 
 ## Alternative Approaches
 
+Since the strangler fig is just a metaphor that describes any gradual migration, there aren't really any alternatives. However, instead of intercepting and routing requests (the canonical version of strangler fig) you can choose alternative approaches like:
 1. As new code is built with new APIs based on a new domain model, it is sometimes easier to simply ask each client to migrate to the new API.
 2. [Inner-Sourced Migration](../../organization/inner-sourced-migration/)
 3. [Bubble](../bubble/_index.md)
