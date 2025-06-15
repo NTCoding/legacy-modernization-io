@@ -18,7 +18,7 @@ The Strangler Fig pattern is a metaphor first defined by Martin Fowler to descri
   <img src="/patterns/migration/strangler-fig/stranger-fig.png" alt="Strangler Fig Pattern" style="max-width: 100%; width: 100%; height: auto;">
 </div>
 
-Proponents of the strangler fig often include the concept of an interceptor or router which is able to take incoming request or messages intended for the legacy and route them to the strangler fig when the relevant functionality exists there.
+Although the Strangler Fig Pattern is just a metaphor and doesn't prescribe any specific approach to gradual migration, proponents of the strangler fig often include the concept of an interceptor or router which is able to take incoming request or messages intended for the legacy and route them to the strangler fig when the relevant functionality exists there.
 
 ## How It Works
 

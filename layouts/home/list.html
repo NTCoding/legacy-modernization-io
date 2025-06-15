@@ -31,11 +31,15 @@
     <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 2.2rem; text-align: center; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;">Featured Patterns</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
       {{ $featured := slice "/patterns/migration/strangler-fig/" "/patterns/migration/bubble/" "/patterns/migration/legacy-event-republishing/" }}
-      {{ range $featured }}
-        {{ with site.GetPage . }}
+      {{ range $i, $f := $featured }}
+        {{ with site.GetPage $f }}
           <div style="flex: 1 1 300px; max-width: 340px; min-width: 260px; background: var(--c-bg-alt, #f7f7f9); border-radius: 1.2rem; box-shadow: none; padding: 2.5rem 2.5rem 2.5rem 2.5rem; display: flex; flex-direction: column; align-items: flex-start;">
             <a href="{{ .RelPermalink }}" aria-label="Read more…">
-              <img src="/patterns/magicpattern-ixxjruC7Gg4-unsplash.png" alt="Pattern image" style="width:100%; max-width:280px; height:auto; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1.5rem auto;" />
+              {{ if eq $i 0 }}
+                <img src="/patterns/migration/strangler-fig/strangler-feature.png" alt="Strangler Fig Pattern" style="width:100%; max-width:280px; height:auto; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1.5rem auto;" />
+              {{ else }}
+                <img src="/patterns/magicpattern-ixxjruC7Gg4-unsplash.png" alt="Pattern image" style="width:100%; max-width:280px; height:auto; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1.5rem auto;" />
+              {{ end }}
             </a>
             <div class="card__content" style="width: 100%; padding: 5px; background-color: var(--c-bg-2); box-shadow: none; display: flex; flex-direction: column; justify-content: space-between;">
               <div style="font-size: 1.1rem; color: #0077b6; font-weight: 700; margin-bottom: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;">
@@ -45,7 +49,7 @@
                 <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
               </h3>
               <div style="font-size: 1.2rem; color: var(--c-text-light, #555); margin-bottom: 1.5rem; padding: 0 0.2em;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt consectetur.
+                The Strangler Fig Pattern is a metaphor invented by Martin Fowler to describe a gradual migration away from a legacy system to a new system (aka the strangler fig application)
               </div>
               <a href="{{ .RelPermalink }}" style="font-size: 1.5rem; color: #00bfae; font-weight: 600; text-decoration: underline;">Read more →</a>
             </div>
