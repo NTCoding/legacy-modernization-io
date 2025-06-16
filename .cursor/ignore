@@ -1,0 +1,6 @@
+public/
+resources/
+.git/
+node_modules/
+.DS_Store
+*.log

@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Rebuild Hugo Site",
+    "type": "shell",
+    "command": "./start.sh",
+    "group": "build"
+  }
+]
