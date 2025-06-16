@@ -20,6 +20,9 @@
   {{ with site.Params.images }}
     {{ $defaultImg := index . 0 }}
     {{ $img = resources.Get $defaultImg }}
+    {{ if not $img }}
+      {{ $img = dict "Permalink" $defaultImg }}
+    {{ end }}
   {{ end }}
 {{ else }}
   {{ $ratio := div 16 (float 9) }}

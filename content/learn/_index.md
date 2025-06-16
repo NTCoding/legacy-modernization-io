@@ -12,6 +12,7 @@ cascade:
   toc: false
 math: true
 mermaid: true
+featured: /og-default.svg
 ---
 
 <!-- This page is intentionally left minimal. See /learn/learning/index.md for the main Learn content. -->
