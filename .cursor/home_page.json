@@ -1,0 +1,8 @@
+{
+  "section": "home_page",
+  "file": "layouts/home/list.html",
+  "start_marker": "{{- define \"main\" -}}",
+  "end_marker": "{{- end -}}",
+  "description": "Entire home page template, including hero, featured patterns, talks, contribute, and footer sections.",
+  "data_type": "HTML/Go template"
+}
