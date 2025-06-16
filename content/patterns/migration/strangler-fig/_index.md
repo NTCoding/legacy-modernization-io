@@ -1,6 +1,7 @@
 ---
 title: "Strangler Fig"
 description: "Gradually replace legacy systems by building new functionality around them."
+featured: "/patterns/migration/strangler-fig/stranger-fig.png"
 subtitle: false
 menu:
   doc:

@@ -1,6 +1,7 @@
 ---
 title: "Bubble"
 description: "Gradually modernize a subsystem by building a new domain model."
+featured: "/patterns/migration/bubble/bubble.png"
 subtitle: false
 menu:
   doc:
