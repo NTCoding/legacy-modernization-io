@@ -1,6 +1,6 @@
 ---
 title: "Shared Database"
-description: "TODO"
+description: "Share the same database between new and legacy to minimise synchronisation"
 subtitle: false
 menu:
   doc:
@@ -12,20 +12,6 @@ tags: []
 weight: 10
 ---
 
-TODO
+To avoid having to synchronise the data between new and legacy systems, a shared database can be used in a configuration where both new and legacy read and write the same data, benefitting from the transactional gurantees offered by the database..
 
-## How It Works
-
-TODO
-
-## Benefits
-
-- TODO
-
-## Drawbacks
-
-- TODO
-
-## When to Use
-
-TODO
+{{< comingsoon >}}

@@ -1,6 +1,6 @@
 ---
 title: "Application-level Events"
-description: "TODO"
+description: "Events published from code rather than via the database"
 subtitle: false
 menu:
   doc:

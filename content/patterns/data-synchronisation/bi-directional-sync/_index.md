@@ -1,6 +1,6 @@
 ---
 title: "Bi-directional Sync"
-description: "TODO"
+description: "Write operations occur in both new and legacy and are synced in both directions"
 subtitle: false
 menu:
   doc:
