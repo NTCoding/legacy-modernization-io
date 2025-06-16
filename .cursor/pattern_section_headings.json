@@ -1,0 +1,8 @@
+{
+  "section": "pattern_section_headings",
+  "file": "layouts/home/list.html",
+  "start_marker": "<!-- FEATURED_PATTERNS_START -->",
+  "end_marker": "<!-- FEATURED_PATTERNS_END -->",
+  "description": "Section containing the featured patterns and their headings on the homepage.",
+  "data_type": "HTML/Go template"
+}
