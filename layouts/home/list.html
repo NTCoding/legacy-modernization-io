@@ -30,11 +30,11 @@
   <div style="max-width: 1100px; margin: 0 auto;">
     <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 2.2rem; text-align: center; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;">Featured Patterns</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
-      {{ $featured := slice "/patterns/migration/strangler-fig/" "/patterns/migration/bubble/" "/patterns/migration/legacy-event-republishing/" }}
+      {{ $featured := slice "/patterns/migration/strangler-fig/" "/patterns/migration/bubble/" "/patterns/data-synchronisation/bi-directional-sync/" }}
       {{ $descriptions := slice 
         "The Strangler Fig pattern is a metaphor invented by Martin Fowler to describe a gradual migration away from a legacy system to a new system (aka the strangler fig application)."
         "The Bubble pattern is about creating a new domain model to encapsulate and gradually replace a specific subdomain/subsystem. Eventually, the bubble should pop."
-        "Legacy Event Republishing involves capturing and translating legacy events into the target domain model"
+        "Bi-directional Sync enables two systems to stay in sync by propagating changes in both directions, allowing for parallel operation and gradual migration."
       }}
       {{ range $i, $f := $featured }}
         {{ with site.GetPage $f }}
@@ -45,7 +45,7 @@
               {{ else if eq $i 1 }}
                 <img src="/patterns/migration/bubble/bubble-feature.png" alt="Bubble image" style="width:280px; height:250px; object-fit:cover; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1.5rem auto;" />
               {{ else }}
-                <img src="/content/home/welcome-to-legacy-modernization/resource-database-jRDZ4_wYCa8-unsplash.jpg" alt="Legacy event republishing image" style="width:280px; height:250px; object-fit:cover; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1.5rem auto;" />
+                <img src="/content/patterns/data-synchronisation/bi-directional-sync/bi-directional-feature.png" alt="Bi-directional Sync image" style="width:280px; height:250px; object-fit:cover; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1.5rem auto;" />
               {{ end }}
             </a>
             <div class="card__content" style="width: 100%; padding: 5px; background-color: var(--c-bg-2); box-shadow: none; display: flex; flex-direction: column; justify-content: space-between;">
