@@ -13,4 +13,5 @@ cascade:
 url: /
 math: true
 mermaid: true
+featured: /og-default.svg
 ---

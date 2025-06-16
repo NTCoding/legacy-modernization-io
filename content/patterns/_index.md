@@ -10,6 +10,7 @@ pre: dashboard
 cascade:
   toc: true
 url: /patterns
+featured: /og-default.svg
 resources:
 - name: featured
   src: magicpattern-ixxjruC7Gg4-unsplash.png
