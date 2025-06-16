@@ -3,6 +3,10 @@ languageCode: 'en-us'
 title: 'Legacy-Modernization.io'
 theme: 'perplex'
 
+params:
+  images:
+    - /og-default.svg
+
 Menus:
   main_social:
     - name: GitHub
