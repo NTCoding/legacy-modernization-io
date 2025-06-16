@@ -1,6 +1,6 @@
 ---
-title: Home
-description: Home page
+title: Legacy-Modernization.io
+description: Legacy-Modernization.io
 subtitle: false
 date: 2022-02-12T13:35:18+01:00
 menu:
