@@ -9,4 +9,4 @@ menu:
     weight: 3
 ---
 
-Welcome to the Organization patterns section. Explore organizational strategies for modernization projects.
+This section covers patterns relating to how your organization is setup and collabrates to carry out modernization work.

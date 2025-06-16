@@ -9,4 +9,4 @@ menu:
     pre: psychology_alt
 ---
 
-This section covers common challenges encountered in legacy systems that can hinder modernization efforts.
+This section covers common challenges encountered in legacy systems that are to be modernized.
