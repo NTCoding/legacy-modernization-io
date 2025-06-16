@@ -12,20 +12,7 @@ tags: []
 weight: 2
 ---
 
-TODO
+Application-level events are events published from code rather than from the database. Publishing events in code can allow for greater flexibility and expressiveness about the intention and reason for the event to be published.
 
-## How It Works
+{{< comingsoon >}}
 
-TODO
-
-## Benefits
-
-- TODO
-
-## Drawbacks
-
-- TODO
-
-## When to Use
-
-TODO
