@@ -15,11 +15,17 @@
     {{ end }}
 {{ end }}
 
-{{ with $imgMap }}
-    {{ $ratio := div 16 (float 9) }}
-    {{ $width := 1200 }}
-    {{ $height := int (math.Round (div $width $ratio)) }}
-    {{ $img = .img.Fill (printf "%dx%d webp q80" $width $height ) }}
+{{ if not $imgMap }}
+  {{/* Fallback to site default OG image if no featured image is found */}}
+  {{ with site.Params.images }}
+    {{ $defaultImg := index . 0 }}
+    {{ $img = resources.Get $defaultImg }}
+  {{ end }}
+{{ else }}
+  {{ $ratio := div 16 (float 9) }}
+  {{ $width := 1200 }}
+  {{ $height := int (math.Round (div $width $ratio)) }}
+  {{ $img = $imgMap.img.Fill (printf "%dx%d webp q80" $width $height ) }}
 {{ end }}
 
 {{ return $img }}
