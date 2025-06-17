@@ -1,6 +1,6 @@
 ---
 title: "Fronend or Backend First"
-description: "TODO"
+description: "Which order to migrate corresponding front and backend logic?"
 subtitle: false
 menu:
   doc:

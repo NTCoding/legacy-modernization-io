@@ -21,19 +21,4 @@ Over time, as more logic gets built in the new model (the bubble), it delegates 
   <img src="/patterns/migration/bubble/bubble.png" alt="Bubble pattern" style="max-width: 100%; width: 100%; height: auto;">
 </div>
 
-
-## How It Works
-
-TODO
-
-## Benefits
-
-- TODO
-
-## Drawbacks
-
-- TODO
-
-## When to Use
-
-TODO
+{{< comingsoon >}}

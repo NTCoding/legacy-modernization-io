@@ -1,6 +1,6 @@
 ---
 title: "Migrate Reads First"
-description: "TODO"
+description: "Migrate read operations first with a specific scope"
 subtitle: false
 menu:
   doc:
