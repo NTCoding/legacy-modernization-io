@@ -5,7 +5,7 @@ theme: 'perplex'
 
 params:
   images:
-    - /og-default.svg
+    - /og-default.png
 
 Menus:
   main_social:
