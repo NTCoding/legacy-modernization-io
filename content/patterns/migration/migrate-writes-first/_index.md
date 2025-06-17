@@ -1,6 +1,6 @@
 ---
 title: "Migrate Writes First"
-description: "TODO"
+description: "Migrate write operations first within a specific scope"
 subtitle: false
 menu:
   doc:
@@ -12,20 +12,6 @@ tags: []
 weight: 3
 ---
 
-TODO
+When planning a migration for a specific subsystem/subdomain, one approach to enable a gradual migration is to migrate the write operations first. All write operations will be handled by the new system and synchronised across to the legacy which still handles all read operations within the scope.
 
-## How It Works
-
-TODO
-
-## Benefits
-
-- TODO
-
-## Drawbacks
-
-- TODO
-
-## When to Use
-
-TODO
+{{< comingsoon >}}

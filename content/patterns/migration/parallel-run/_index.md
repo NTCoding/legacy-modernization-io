@@ -10,4 +10,6 @@ menu:
     pre: done_all
 ---
 
-The **Parallel Run** pattern involves operating both the legacy and modernized systems in parallel for a period of time during migration. This approach allows teams to compare outputs, validate the new system, and reduce risk before fully switching over.
+The **Parallel Run** pattern involves operating both the legacy and modernized systems in parallel for a period of time during migration. Both systems handle all requests to the application. This approach allows teams to compare the outputs of both systems in order to gain the confidence to switch over.
+
+{{< comingsoon >}}
