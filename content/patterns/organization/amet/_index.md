@@ -1,6 +1,6 @@
 ---
 title: "AMET"
-description: "TODO"
+description: "Architecture Modernization Enabling Teams"
 subtitle: false
 menu:
   doc:
@@ -12,20 +12,8 @@ tags: []
 weight: 1
 ---
 
-TODO
+An AMET (Architecture Modernization Enabling Team) is a team dedicated to ensuring that modernization starts and is moving in the right direction. Their objective is to identify blockers, inertia and skills and put in place sustainable solutions to address them. 
 
-## How It Works
+An AMET is not a team that does the work, nor is it intended to be a permanent solution. 
 
-TODO
-
-## Benefits
-
-- TODO
-
-## Drawbacks
-
-- TODO
-
-## When to Use
-
-TODO
+{{< comingsoon >}}
