@@ -1,6 +1,6 @@
 ---
 title: Legacy-Modernization.io
-description: Legacy-Modernization.io
+description: Welcome to legacy-modernization.io - resources to help you modernize effectively
 subtitle: false
 date: 2022-02-12T13:35:18+01:00
 menu:
