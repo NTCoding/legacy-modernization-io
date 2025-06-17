@@ -32,6 +32,7 @@ In alphabetical order:
 - [Rachel Laycock](https://www.linkedin.com/in/rachellaycock/)
 - [Sam Newman](https://www.linkedin.com/in/samnewman/)
 - [Thomas Pierrain](https://bsky.app/profile/tpierrain.bsky.social)
+- [Xin Yao](https://bsky.app/profile/settling-mud.bsky.social)
 
 ## Tools & Software
 
