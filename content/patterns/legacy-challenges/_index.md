@@ -1,6 +1,6 @@
 ---
 title: "Legacy Challenges"
-description: "Common challenges found in legacy systems."
+description: "Common challenges found in legacy systems"
 menu:
   doc:
     name: Legacy Challenges
@@ -9,4 +9,4 @@ menu:
     pre: psychology_alt
 ---
 
-This section covers common challenges encountered in legacy systems that are to be modernized.
+This section covers common challenges encountered in legacy systems that are to be modernized. It's important to be aware of these challenges before you start modernizing.

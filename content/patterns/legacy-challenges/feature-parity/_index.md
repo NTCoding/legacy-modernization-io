@@ -1,6 +1,6 @@
 ---
 title: "Feature Parity"
-description: "TODO"
+description: "Just make the new system do exactly what the old one does"
 subtitle: false
 menu:
   doc:
@@ -12,20 +12,7 @@ tags: []
 weight: 3
 ---
 
-TODO
+When modernizing a legacy system, a common tendency is the desire for the new system to maintain feature parity with the old system. While this seems like a sensible idea "the new system should do exactly what the old one did" it both adds risks and missess opportunities to improve the product and architecture.
 
-## How It Works
+{{< comingsoon >}}
 
-TODO
-
-## Benefits
-
-- TODO
-
-## Drawbacks
-
-- TODO
-
-## When to Use
-
-TODO
