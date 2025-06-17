@@ -12,6 +12,10 @@ Menus:
     - name: GitHub
       pre: github
       url: "https://github.com/NTCoding/legacy-modernization-patterns/"
+      weight: 2
+    - name: Bluesky
+      pre: bluesky
+      url: "https://bsky.app/profile/legacy-modernization.io"
       weight: 1
 
 taxonomies:
