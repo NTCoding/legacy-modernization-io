@@ -57,7 +57,7 @@ Since the strangler fig is just a metaphor that describes any gradual migration,
 - The legacy system is too large or complex to replace all at once.
 - You need to minimize disruption to users during modernization.
 - You want to adopt modern technologies incrementally.
-- You are reliable able to route traffice from the legacy to the new
+- You are reliable able to route traffic from the legacy to the new
 
 ## Other Resources
 

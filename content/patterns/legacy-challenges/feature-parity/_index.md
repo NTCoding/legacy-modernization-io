@@ -12,7 +12,7 @@ tags: []
 weight: 3
 ---
 
-When modernizing a legacy system, a common tendency is the desire for the new system to maintain feature parity with the old system. While this seems like a sensible idea "the new system should do exactly what the old one did" it both adds risks and missess opportunities to improve the product and architecture.
+When modernizing a legacy system, a common tendency is the desire for the new system to maintain feature parity with the old system. While this seems like a sensible idea "the new system should do exactly what the old one did" it both adds risks and misses opportunities to improve the product and architecture.
 
 {{< comingsoon >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Fronend or Backend First"
+title: "Frontend or Backend First"
 description: "Which order to migrate corresponding front and backend logic?"
 subtitle: false
 menu:

@@ -1,10 +1,10 @@
 ---
-title: "Expose Legacy Assetts"
+title: "Expose Legacy Assets"
 description: "Leverage legacy capabilities without replacing the legacy"
 subtitle: false
 menu:
   doc:
-    name: Expose Legacy Assetts
+    name: Expose Legacy Assets
     parent: migration
     pre: layers
 categories: [migration]
