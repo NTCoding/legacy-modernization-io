@@ -17,7 +17,7 @@ The reverse bubble pattern is based on the [Bubble](/content/patterns/migration/
 When all of the logic has been moved to the reverse bubble, the traffic from the legacy can be redirected to the reverse bubble and the legacy decommissioned.
 
 <div class="title title--sans title--third">
-  <img src="/patterns/migration/reverse-bubble/reverse-bubble.png" alt="Strangler Fig Pattern" style="max-width: 100%; width: 100%; height: auto;">
+  <img src="/patterns/migration/reverse-bubble/reverse-bubble.png" alt="Reverse Bubble Pattern" style="max-width: 100%; width: 100%; height: auto;">
 </div>
 
 {{< comingsoon >}}
