@@ -50,7 +50,7 @@ In alphabetical order:
 
 ## Hands-on Exercises
 
-- [Legacy Modernization Exercise](https://miro.com/app/board/uXjVI-WPDb0=/?share_link_id=151743924653)
+- [Legacy Migration Exercise](https://miro.com/app/board/uXjVI-WPDb0=/?share_link_id=151743924653)
 
 ## General
 
