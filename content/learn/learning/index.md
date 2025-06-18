@@ -20,6 +20,7 @@ The following talks contain modernization related concepts or case studies.
 - [Monolith Decomposition Patterns](https://www.youtube.com/watch?v=9I9GdSQ1bbM)
 - [Modularizing the Monolith](https://www.youtube.com/watch?v=fc6_NtD9soI)
 - [Goodbye Microservices, Hello Self-Contained Systems](https://www.youtube.com/watch?v=Jjrencq8sUQ)
+- [How to make better modernization decisions](https://www.youtube.com/watch?v=qiuOfWXvTgk)
 
 ## People
 
