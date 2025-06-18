@@ -34,6 +34,7 @@ In alphabetical order:
 - [Indu Alagarsamy](https://bsky.app/profile/indu-alagarsamy.bsky.social)
 - [Jimmy Bogard](https://bsky.app/profile/jimmybogard.com)
 - [Julien Topçu](https://bsky.app/profile/julientopcu.com)
+- [Krisztina Hirth](https://www.linkedin.com/in/christina-hirth-yellowbrickcode/)
 - [Laila Bougria](https://bsky.app/profile/noctovis.bsky.social)
 - [Markus Harrer](https://bsky.app/profile/markusharrer.de)
 - [Rachel Laycock](https://www.linkedin.com/in/rachellaycock/)
