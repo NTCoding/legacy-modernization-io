@@ -48,6 +48,10 @@ In alphabetical order:
 
 - [CodeScene](https://codescene.com/)
 
+## Hands-on Exercises
+
+- [Legacy Modernization Exercise](https://miro.com/app/board/uXjVI-WPDb0=/?share_link_id=151743924653)
+
 ## General
 
 - [Awesome Legacy Systems](https://github.com/feststelltaste/awesome-legacy-systems)
