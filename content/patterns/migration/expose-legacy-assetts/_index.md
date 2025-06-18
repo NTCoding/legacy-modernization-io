@@ -9,7 +9,7 @@ menu:
     pre: layers
 categories: [migration]
 tags: []
-weight: 31
+weight: 5
 ---
 
 When you need to leverage a legacy systems data or functionality in the new system, but you don't want to replace the legacy (or want to do it later) you can expose the legacy capabilities in the form of APIs, events, or other formats.

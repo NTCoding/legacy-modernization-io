@@ -9,7 +9,7 @@ menu:
     pre: edit_note
 categories: [migration]
 tags: []
-weight: 3
+weight: 8
 ---
 
 When planning a migration for a specific subsystem/subdomain, one approach to enable a gradual migration is to migrate the write operations first. All write operations will be handled by the new system and synchronised across to the legacy which still handles all read operations within the scope.

@@ -10,7 +10,7 @@ menu:
     pre: bubble_chart
 categories: [migration]
 tags: []
-weight: 12
+weight: 2
 ---
 
 The Bubble or Bubble Context pattern was defined by Eric Evans, the author of Domain-Driven Design. The idea is to gradually build a new domain model for a given subsystem/subdomain that sits in front of the legacy model.

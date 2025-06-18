@@ -6,7 +6,7 @@ menu:
     parent: migration
     name: Parallel Run
     identifier: parallel-run
-    weight: 20
+    weight: 11
     pre: done_all
 ---
 

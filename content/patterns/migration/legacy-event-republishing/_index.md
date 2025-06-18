@@ -9,7 +9,7 @@ menu:
     pre: replay
 categories: [migration]
 tags: []
-weight: 20
+weight: 6
 ---
 
 Events coming out of a legacy system represent the legacy model. Allowing many consumers to consume raw legacy events means all of those consumers are coupled to the legacy model. The Legacy Event Republishing pattern requires the domain conceptually responsible for a legacy event to translate it to the new model and then republish to other domains who are therefore decoupled from the legacy model.

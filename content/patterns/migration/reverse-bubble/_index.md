@@ -9,7 +9,7 @@ menu:
     parent: migration
     pre: bubble_chart
 categories: [migration]
-weight: 100
+weight: 4
 ---
 
 The reverse bubble pattern is based on the[Bubble](/content/patterns/migration/bubble/_index.md) pattern. However, rather than the bubble sitting in front of the legacy, the bubble is built behind the legacy and gradually moves logic from the legacy to the bubble and proxies requests from the legacy to the bubble.

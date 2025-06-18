@@ -1,6 +1,6 @@
 ---
 title: "Migrate Reads First"
-description: "Migrate read operations first with a specific scope"
+description: "Migrate read operations first within a specific scope"
 subtitle: false
 menu:
   doc:
@@ -9,7 +9,7 @@ menu:
     pre: visibility
 categories: [migration]
 tags: []
-weight: 2
+weight: 7
 ---
 
 When planning a migration for a specific subsystem/subdomain, one approach to enable a gradual migration is to migrate read operations first. All read operations will be handled by the new system, while all write operations still go to the legacy and are synchronised across to the new.

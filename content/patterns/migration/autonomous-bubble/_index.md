@@ -9,7 +9,7 @@ menu:
     pre: bubble_chart
 categories: [migration]
 tags: []
-weight: 13
+weight: 3
 ---
 
 The Autonomous Bubble is an alternative to the [Bubble](/patterns/migration/bubble/_index.md) that has it's own datastore. As a result, it is able to service requests without translating and delegating to the legacy. For this to work, an asynchronous synchronization mechanism between the bubble and legacy datastores is used.

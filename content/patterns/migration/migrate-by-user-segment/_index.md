@@ -9,7 +9,7 @@ menu:
     pre: group_work
 categories: [migration]
 tags: []
-weight: 4
+weight: 9
 ---
 
 When choosing which subset of functionality to migrate from a legacy system to the new system, one possibility is to migrate the functionality related to a certain user segment, like premium customers or users in a specific country or region.
