@@ -28,16 +28,19 @@ In alphabetical order:
 
 - [Adam Tornhill](https://www.linkedin.com/in/adam-tornhill-71759b48/)
 - [Carola Lilienthal](https://www.linkedin.com/in/carola-lilienthal-a1331073/)
+- [Eduardo da Silva](https://bsky.app/profile/esilva.net)
 - [Guillaume Rahbari](https://www.linkedin.com/in/guillaume-rahbari/)
 - [Henning Schwentner](https://bsky.app/profile/hschwentner.bsky.social)
 - [Indu Alagarsamy](https://bsky.app/profile/indu-alagarsamy.bsky.social)
 - [Jimmy Bogard](https://bsky.app/profile/jimmybogard.com)
 - [Julien Topçu](https://bsky.app/profile/julientopcu.com)
+- [Laila Bougria](https://bsky.app/profile/noctovis.bsky.social)
 - [Markus Harrer](https://bsky.app/profile/markusharrer.de)
 - [Rachel Laycock](https://www.linkedin.com/in/rachellaycock/)
 - [Sam Newman](https://www.linkedin.com/in/samnewman/)
 - [Simon Martinelli](https://bsky.app/profile/martinelli.ch)
 - [Thomas Pierrain](https://bsky.app/profile/tpierrain.bsky.social)
+- [Udi Dahan](https://bsky.app/profile/udidahan.com)
 - [Xin Yao](https://bsky.app/profile/settling-mud.bsky.social)
 
 ## Tools & Software
