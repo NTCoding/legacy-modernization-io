@@ -38,6 +38,7 @@ In alphabetical order:
 - [Laila Bougria](https://bsky.app/profile/noctovis.bsky.social)
 - [Markus Harrer](https://bsky.app/profile/markusharrer.de)
 - [Rachel Laycock](https://www.linkedin.com/in/rachellaycock/)
+- [Ryan Shriver](https://www.linkedin.com/in/ryanshriver/)
 - [Sam Newman](https://www.linkedin.com/in/samnewman/)
 - [Simon Martinelli](https://bsky.app/profile/martinelli.ch)
 - [Thomas Pierrain](https://bsky.app/profile/tpierrain.bsky.social)
