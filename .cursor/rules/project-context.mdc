@@ -114,6 +114,51 @@ weight: 100
 ---
 ```
 
+### Adding Image References to Pattern Pages
+When asked to "add a reference to the image" for a pattern page, perform BOTH of the following actions:
+
+#### 1. Add Featured Image to Front Matter
+Add a `featured` field to the YAML front matter pointing to the image file:
+```yaml
+featured: "/patterns/{section}/{pattern-name}/{image-filename}"
+```
+
+#### 2. Add Image to Body Content
+Add the image in the body content using this exact HTML structure:
+```html
+<div class="title title--sans title--third">
+  <img src="/patterns/{section}/{pattern-name}/{image-filename}" alt="{Pattern Name} Pattern" style="max-width: 100%; width: 100%; height: auto;">
+</div>
+```
+
+#### Placement Rules:
+- **Featured image**: Goes in the YAML front matter
+- **Body image**: Goes below the descriptive text and above the `{{< comingsoon >}}` block
+- **Alt text format**: "{Pattern Name} Pattern" (e.g., "Migrate by User Segment Pattern")
+
+#### Path Format:
+- Images are typically located in the same directory as the `_index.md` file
+- Path format: `/patterns/{section}/{pattern-name}/{image-filename}`
+- Example: `/patterns/migration/bubble/bubble.png`
+
+#### Example Complete Update:
+```yaml
+---
+title: "Example Pattern"
+description: "Pattern description"
+featured: "/patterns/migration/example-pattern/example-pattern.png"
+# ... other front matter
+---
+
+Pattern description text goes here.
+
+<div class="title title--sans title--third">
+  <img src="/patterns/migration/example-pattern/example-pattern.png" alt="Example Pattern Pattern" style="max-width: 100%; width: 100%; height: auto;">
+</div>
+
+{{< comingsoon >}}
+```
+
 ---
 
 **Note**: Prefix all responses with the pineapple emoji 🍍 to confirm this file has been read
