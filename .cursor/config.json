@@ -1,6 +1,0 @@
-{
-  "projectType": "hugo-site",
-  "mainContentDirs": ["content", "layouts", "static", "themes"],
-  "ignore": ["public", "resources", ".git", ".cursor"],
-  "description": "A Hugo static site project for legacy modernization patterns."
-}

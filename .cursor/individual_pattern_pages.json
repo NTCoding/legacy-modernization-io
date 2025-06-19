@@ -1,6 +1,0 @@
-{
-  "section": "individual_pattern_pages",
-  "glob_pattern": "content/patterns/*/*/_index.md",
-  "description": "All individual pattern pages. Each file matches the pattern /content/patterns/{pattern_section}/{individual_pattern}/_index.md, where {pattern_section} and {individual_pattern} are any valid directory names. These are the main content files for each pattern.",
-  "data_type": "Markdown"
-}

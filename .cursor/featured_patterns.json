@@ -1,8 +1,0 @@
-{
-  "section": "featured_patterns",
-  "file": "layouts/home/list.html",
-  "start_marker": "<!-- FEATURED_PATTERNS_START -->",
-  "end_marker": "<!-- FEATURED_PATTERNS_END -->",
-  "description": "Featured patterns array and descriptions for homepage. Use these markers to locate the section for automated edits.",
-  "data_type": "Go template slice"
-}
