@@ -21,42 +21,6 @@
   padding-right: 2rem;
 }
 
-/* Fix for pattern pages - ensure consistent alignment */
-.l-page--doc {
-  display: grid !important;
-}
-
-#l-content-box {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.l-box--full, .l-box--doc {
-  width: 100%;
-  max-width: 100%;
-}
-
-/* Ensure content is visible at all zoom levels */
-#l-content {
-  min-height: 50vh;
-  width: 100%;
-}
-
-/* Ensure all content elements are properly aligned */
-.page-header, .md, .md--sans, .md--margin-full, .page-footer {
-  width: 100%;
-  max-width: 100%;
-}
-
-/* Fix title alignment */
-.title {
-  width: 100%;
-  max-width: 100%;
-}
-
 @media screen and (min-width: 120em) {
   .l-page {
     display: block;
