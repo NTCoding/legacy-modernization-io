@@ -48,6 +48,7 @@ In alphabetical order:
 ## Tools & Software
 
 - [CodeScene](https://codescene.com/)
+- [OpenRewrite](https://docs.openrewrite.org/)
 
 ## Hands-on Exercises
 
