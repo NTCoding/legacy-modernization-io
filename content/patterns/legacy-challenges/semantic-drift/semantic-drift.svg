@@ -5,13 +5,13 @@
   
   <!-- Legacy System Side -->
   <rect x="50" y="50" width="450" height="480" fill="#f9f9f9" stroke="#999999" stroke-width="3" rx="10"/>
-  <text x="275" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#666666">
+  <text x="275" y="85" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" fill="#666666" letter-spacing="0.5px">
     LEGACY SYSTEM LANGUAGE
   </text>
   
   <!-- Modern Business Side -->
   <rect x="700" y="50" width="450" height="480" fill="#fafafe" stroke="#7b2cbf" stroke-width="3" rx="10"/>
-  <text x="925" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7b2cbf">
+  <text x="925" y="85" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" fill="#7b2cbf" letter-spacing="0.5px">
     CURRENT BUSINESS TERMINOLOGY
   </text>
   
@@ -19,56 +19,56 @@
   
   <!-- Concept 1 -->
   <rect x="95" y="120" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+  <text x="275" y="155" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
     Patient Record
   </text>
   
   <rect x="745" y="120" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+  <text x="925" y="155" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
     Health Consumer
   </text>
   
   <!-- Concept 2 -->
   <rect x="95" y="200" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+  <text x="275" y="235" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
     Appointment Slot
   </text>
   
   <rect x="745" y="200" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+  <text x="925" y="235" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
     Care Encounter
   </text>
   
   <!-- Concept 3 -->
   <rect x="95" y="280" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+  <text x="275" y="315" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
     Procedure Code
   </text>
   
   <rect x="745" y="280" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+  <text x="925" y="315" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segue UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
     Care Intervention
   </text>
   
   <!-- Concept 4 -->
   <rect x="95" y="360" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+  <text x="275" y="395" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
     Patient Compliance
   </text>
   
   <rect x="745" y="360" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+  <text x="925" y="395" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
     Patient Engagement
   </text>
   
   <!-- Concept 5 -->
   <rect x="95" y="440" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+  <text x="275" y="475" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
     Discharge
   </text>
   
   <rect x="745" y="440" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+  <text x="925" y="475" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
     Care Transition
   </text>
   
