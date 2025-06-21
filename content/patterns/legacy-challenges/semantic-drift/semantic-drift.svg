@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#ffffff"/>
+  
+  
+  <!-- Legacy System Side -->
+  <rect x="50" y="50" width="450" height="480" fill="#f9f9f9" stroke="#999999" stroke-width="3" rx="10"/>
+  <text x="275" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#666666">
+    LEGACY SYSTEM LANGUAGE
+  </text>
+  
+  <!-- Modern Business Side -->
+  <rect x="700" y="50" width="450" height="480" fill="#fafafe" stroke="#7b2cbf" stroke-width="3" rx="10"/>
+  <text x="925" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7b2cbf">
+    CURRENT BUSINESS TERMINOLOGY
+  </text>
+  
+  <!-- Domain Concept Pairs -->
+  
+  <!-- Concept 1 -->
+  <rect x="95" y="120" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
+  <text x="275" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+    Patient Record
+  </text>
+  
+  <rect x="745" y="120" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
+  <text x="925" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+    Health Consumer
+  </text>
+  
+  <!-- Concept 2 -->
+  <rect x="95" y="200" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
+  <text x="275" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+    Appointment Slot
+  </text>
+  
+  <rect x="745" y="200" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
+  <text x="925" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+    Care Encounter
+  </text>
+  
+  <!-- Concept 3 -->
+  <rect x="95" y="280" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
+  <text x="275" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+    Procedure Code
+  </text>
+  
+  <rect x="745" y="280" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
+  <text x="925" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+    Care Intervention
+  </text>
+  
+  <!-- Concept 4 -->
+  <rect x="95" y="360" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
+  <text x="275" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+    Patient Compliance
+  </text>
+  
+  <rect x="745" y="360" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
+  <text x="925" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+    Patient Engagement
+  </text>
+  
+  <!-- Concept 5 -->
+  <rect x="95" y="440" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
+  <text x="275" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#666666">
+    Discharge
+  </text>
+  
+  <rect x="745" y="440" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
+  <text x="925" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b2cbf">
+    Care Transition
+  </text>
+  
+  <!-- Arrows showing evolution -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#4a4a4a" />
+    </marker>
+  </defs>
+  
+  <!-- Evolution arrows -->
+  <line x1="470" y1="150" x2="745" y2="150" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="470" y1="230" x2="745" y2="230" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="470" y1="310" x2="745" y2="310" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="470" y1="390" x2="745" y2="390" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="470" y1="470" x2="745" y2="470" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  
+</svg>
