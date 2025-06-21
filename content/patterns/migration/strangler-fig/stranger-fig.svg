@@ -1,0 +1,78 @@
+<svg width="800" height="580" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for arrowheads -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0,0 12,4 0,8" fill="#4a4a4a"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="580" fill="#ffffff"/>
+  
+  <!-- Client/User -->
+  <rect x="50" y="40" width="140" height="80" rx="10" fill="#f9f9f9" stroke="#999999" stroke-width="3"/>
+  <text x="120" y="87" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">Client</text>
+  
+  <!-- Router/Interceptor -->
+  <rect x="280" y="40" width="240" height="80" rx="10" fill="#fafafe" stroke="#7b2cbf" stroke-width="3"/>
+  <text x="400" y="87" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" letter-spacing="0.5px" fill="#7b2cbf">Router / Interceptor</text>
+  
+  <!-- Legacy System Container -->
+  <rect x="50" y="200" width="340" height="280" rx="10" fill="#f9f9f9" stroke="#999999" stroke-width="3"/>
+  <text x="220" y="230" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" letter-spacing="0.5px" fill="#666666">Legacy System</text>
+  
+  <!-- Legacy Subsystems -->
+  <rect x="70" y="250" width="140" height="60" rx="8" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+  <text x="140" y="275" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#666666">Subsystem A</text>
+  <text x="140" y="293" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">(legacy)</text>
+  
+  <rect x="230" y="250" width="140" height="60" rx="8" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+  <text x="300" y="275" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#666666">Subsystem B</text>
+  <text x="300" y="293" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">(legacy)</text>
+  
+  <rect x="70" y="325" width="140" height="60" rx="8" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+  <text x="140" y="350" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#666666">Subsystem C</text>
+  <text x="140" y="368" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">(legacy)</text>
+  
+  <rect x="230" y="325" width="140" height="60" rx="8" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+  <text x="300" y="350" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#666666">Subsystem D</text>
+  <text x="300" y="368" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">(legacy)</text>
+  
+  <!-- Additional Legacy Subsystems -->
+  <rect x="70" y="400" width="140" height="60" rx="8" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+  <text x="140" y="425" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#666666">Subsystem E</text>
+  <text x="140" y="443" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">(legacy)</text>
+  
+  <rect x="230" y="400" width="140" height="60" rx="8" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+  <text x="300" y="425" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#666666">Subsystem F</text>
+  <text x="300" y="443" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">(legacy)</text>
+  
+  <!-- Modern System Container -->
+  <rect x="410" y="200" width="340" height="280" rx="10" fill="#fafafe" stroke="#7b2cbf" stroke-width="3"/>
+  <text x="580" y="235" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" letter-spacing="0.5px" fill="#7b2cbf">Modern System</text>
+  <text x="580" y="253" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#7b2cbf">(the strangler fig)</text>
+  
+  <!-- Modern Subsystems -->
+  <rect x="430" y="275" width="140" height="60" rx="8" fill="#ffffff" stroke="#7b2cbf" stroke-width="3"/>
+  <text x="500" y="300" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#7b2cbf">Subsystem A</text>
+  <text x="500" y="318" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#7b2cbf">(modernized)</text>
+  
+  <rect x="590" y="275" width="140" height="60" rx="8" fill="#ffffff" stroke="#7b2cbf" stroke-width="3"/>
+  <text x="660" y="300" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="500" fill="#7b2cbf">Subsystem G</text>
+  <text x="660" y="318" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#7b2cbf">(new)</text>
+  
+  <!-- Arrows -->
+  <!-- Client to Router -->
+  <line x1="190" y1="80" x2="280" y2="80" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Router to Legacy (some features) -->
+  <line x1="360" y1="120" x2="260" y2="200" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <text x="300" y="150" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#4a4a4a">B, C, D, E, F</text>
+  
+  <!-- Router to Modern (some features) -->
+  <line x1="440" y1="120" x2="540" y2="200" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <text x="480" y="150" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#4a4a4a">A, G</text>
+  
+  <!-- Strangling indication -->
+  <text x="400" y="520" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">Subsystems gradually migrate from legacy to modern system</text>
+</svg>

@@ -1,7 +1,7 @@
 ---
 title: "Strangler Fig"
 description: "Gradually replace legacy systems by building new functionality around them."
-featured: "/patterns/migration/strangler-fig/stranger-fig.png"
+featured: "/patterns/migration/strangler-fig/stranger-fig.svg"
 subtitle: false
 menu:
   doc:
@@ -16,7 +16,7 @@ weight: 1
 The Strangler Fig pattern is a metaphor first defined by Martin Fowler to describe a gradual migration from a legacy system to a new modernized application. The Strangler Fig Application lives alongside the legacy slowly taking away all it's responsibilities until there is nothing left of the legacy.
 
 <div class="title title--sans title--third">
-  <img src="/patterns/migration/strangler-fig/stranger-fig.png" alt="Strangler Fig Pattern" style="max-width: 100%; width: 100%; height: auto;">
+  <img src="/patterns/migration/strangler-fig/stranger-fig.svg" alt="Strangler Fig Pattern" style="max-width: 100%; width: 100%; height: auto;">
 </div>
 
 Although the Strangler Fig Pattern is just a metaphor and doesn't prescribe any specific approach to gradual migration, proponents of the strangler fig often include the concept of an interceptor or router which is able to take incoming request or messages intended for the legacy and route them to the strangler fig when the relevant functionality exists there.
