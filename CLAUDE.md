@@ -102,6 +102,45 @@ The project uses Hugo modules for:
 
 Run `hugo mod graph` to see the full dependency tree.
 
+## Image Design Guidelines
+
+When creating SVG diagrams and illustrations for pattern documentation, follow these style guidelines for consistency and professional appearance:
+
+### Typography
+- **Font Family**: `Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif`
+- **Headers**: 20px, font-weight 600 (semi-bold), letter-spacing 0.5px
+- **Body Text/Labels**: 20px, font-weight 500 (medium)
+- **Small Text**: 11px, font-style italic for subtle annotations
+
+### Color Palette
+
+#### Legacy System Colors
+- **Background**: `#f9f9f9` (very light grey for container backgrounds)
+- **Border**: `#999999` (medium grey for borders)
+- **Text**: `#666666` (dark grey for text content)
+- **Fill**: `#ffffff` (white for content boxes)
+
+#### Modern/Current System Colors  
+- **Background**: `#fafafe` (very light purple-tinted background)
+- **Border**: `#7b2cbf` (professional purple for borders)
+- **Text**: `#7b2cbf` (matching purple for text content)
+- **Fill**: `#ffffff` (white for content boxes)
+
+### Visual Elements
+- **Border Width**: 3px for all container and content boxes
+- **Border Radius**: 10px for main containers, 8px for content boxes
+- **Arrow Style**: 
+  - Color: `#4a4a4a` (neutral dark grey)
+  - Width: 2px
+  - Style: Dashed (`stroke-dasharray="5,3"`)
+  - Arrowheads: 12x8px, positioned to touch (not penetrate) target borders
+
+### Layout Principles
+- Center content boxes within container backgrounds with 15px margin
+- Use consistent spacing between elements (80px vertical gaps for concepts)
+- Maintain clear visual hierarchy through consistent sizing and typography
+- Ensure arrows provide clear directional flow without visual clutter
+
 ## Important Notes
 
 - The `public/` directory is auto-generated - never edit directly
