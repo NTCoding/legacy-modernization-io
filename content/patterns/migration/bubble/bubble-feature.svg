@@ -1,0 +1,42 @@
+<svg width="280" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for arrowheads -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0,0 12,4 0,8" fill="#4a4a4a"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="280" height="250" fill="#ffffff"/>
+  
+  <!-- Bubble Container with perfect proportions -->
+  <rect x="60" y="20" width="160" height="100" rx="10" fill="#fafafe" stroke="#7b2cbf" stroke-width="1"/>
+  <text x="140" y="40" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" font-weight="600" letter-spacing="0.5px" fill="#7b2cbf" dy="0.35em">Bubble</text>
+  
+  <!-- Domain Model Circle - perfectly proportioned within bubble -->
+  <circle cx="140" cy="85" r="25" fill="none" stroke="#4a4a4a" stroke-width="1.5" stroke-dasharray="4,2"/>
+  
+  <!-- Domain Elements - elegant organic arrangement -->
+  <ellipse cx="128" cy="72" rx="6" ry="4" fill="#d5d5d5" transform="rotate(-15 128 72)"/>
+  <ellipse cx="152" cy="78" rx="6" ry="4" fill="#d5d5d5" transform="rotate(20 152 78)"/>
+  <ellipse cx="135" cy="90" rx="6" ry="4" fill="#d5d5d5" transform="rotate(-8 135 90)"/>
+  <ellipse cx="150" cy="95" rx="6" ry="4" fill="#d5d5d5" transform="rotate(25 150 95)"/>
+  <ellipse cx="125" cy="98" rx="6" ry="4" fill="#d5d5d5" transform="rotate(-20 125 98)"/>
+  
+  <!-- Elegant curved connections showing relationships -->
+  <path d="M 134 76 Q 140 82 146 82" stroke="#999999" stroke-width="0.8" fill="none" opacity="0.7"/>
+  <path d="M 146 86 Q 143 90 141 94" stroke="#999999" stroke-width="0.8" fill="none" opacity="0.7"/>
+  <path d="M 141 94 Q 135 96 131 94" stroke="#999999" stroke-width="0.8" fill="none" opacity="0.7"/>
+  
+  <!-- Anticorruption Layer with expert spacing -->
+  <rect x="40" y="150" width="200" height="30" rx="8" fill="none" stroke="#7b2cbf" stroke-width="1" stroke-dasharray="8,3"/>
+  <text x="140" y="165" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="500" fill="#7b2cbf" dy="0.35em">Anticorruption Layer</text>
+  
+  <!-- Legacy System - proportionally balanced -->
+  <rect x="85" y="210" width="110" height="30" rx="10" fill="#f9f9f9" stroke="#999999" stroke-width="1"/>
+  <text x="140" y="225" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="500" fill="#666666" dy="0.35em">Legacy</text>
+  
+  <!-- Arrows with perfect spacing and length -->
+  <line x1="140" y1="120" x2="140" y2="150" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="140" y1="180" x2="140" y2="210" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+</svg>
