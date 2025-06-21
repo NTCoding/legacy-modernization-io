@@ -140,6 +140,8 @@ When creating SVG diagrams and illustrations for pattern documentation, follow t
 - Use consistent spacing between elements (80px vertical gaps for concepts)
 - Maintain clear visual hierarchy through consistent sizing and typography
 - Ensure arrows provide clear directional flow without visual clutter
+- IMPORTANT: expert use of proximity is crucial - text and other objects should not be pushed right up against the edges of boxes they are inside.
+- IMPORTANT: text should never overflow out of boxes. It should be positioned inside with just right padding
 
 ## Important Notes
 
