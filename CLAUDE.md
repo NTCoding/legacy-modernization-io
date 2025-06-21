@@ -136,12 +136,34 @@ When creating SVG diagrams and illustrations for pattern documentation, follow t
   - Arrowheads: 12x8px, positioned to touch (not penetrate) target borders
 
 ### Layout Principles
-- Center content boxes within container backgrounds with 15px margin
-- Use consistent spacing between elements (80px vertical gaps for concepts)
+- Center content boxes within container backgrounds
+- Use consistent spacing between elements
 - Maintain clear visual hierarchy through consistent sizing and typography
 - Ensure arrows provide clear directional flow without visual clutter
-- IMPORTANT: expert use of proximity is crucial - text and other objects should not be pushed right up against the edges of boxes they are inside.
-- IMPORTANT: text should never overflow out of boxes. It should be positioned inside with just right padding
+- IMPORTANT: expert use of proximity is crucial 
+- IMPORTANT: text and other objects should not be crammed together - there should always be padding between the edges of object and the text or objects inside them.
+- IMPORTANT: text should never overflow out of boxes. This rule can never be violated.
+
+### Container Layout Requirements
+- **Equal Padding Rule**: ALL content within containers must have equal padding on all sides (exactly 20px)
+- **Proximity Principle**: Container dimensions must EXACTLY fit content plus padding - no wasted space allowed
+- **Container Sizing Formula**: 
+  - Width = content_width + (2 × padding)
+  - Height = content_height + (2 × padding) 
+- **Grid Calculation**: For 2-column layouts: `left_x = container_x + padding`, `right_x = container_x + container_width - item_width - padding`
+- **Verification Steps**:
+  1. Check: `container_right_edge - rightmost_item_right_edge = padding`
+  2. Check: `container_bottom_edge - bottommost_item_bottom_edge = padding`
+  3. Check: `leftmost_item_left_edge - container_left_edge = padding`
+  4. Check: `topmost_item_top_edge - container_top_edge = padding`
+- **No Exceptions**: If padding is unequal, either move content or resize container - never leave large empty spaces
+
+### Text Positioning Requirements
+- **Minimum Padding**: Text must have minimum 10px padding from all box edges
+- **Box Sizing**: Increase box dimensions if needed to accommodate text with proper padding
+- **Text Calculation**: Position text as: x = box_center, y = box_center (adjust for multi-line text)
+- **Font Scaling**: Reduce font size if necessary to maintain padding requirements
+- **Breathing Room**: Visual comfort is more important than fitting exact font sizes
 
 ## Important Notes
 
