@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1500"
+   height="650"
+   viewBox="0 0 1499.9999 650"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="poor-modularity.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="0.65376659"
+     inkscape:cx="805.33329"
+     inkscape:cy="188.14054"
+     inkscape:window-width="1344"
+     inkscape:window-height="765"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg20"
+     showgrid="false">
+    <inkscape:grid
+       id="grid50"
+       units="px"
+       originx="-58.416584"
+       originy="-99.223083"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect50"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect49"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect48"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect43"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect42"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect41"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect40"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect39"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect38"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect37"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect36"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect35"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect34"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect33"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect32"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       id="arrow"
+       viewBox="0 0 12 8"
+       refX="12"
+       refY="4"
+       markerWidth="12"
+       markerHeight="8"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <polygon
+         points="0,8 0,0 12,4 "
+         fill="#4a4a4a"
+         id="polygon1" />
+    </marker>
+  </defs>
+  <text
+     x="425.45892"
+     y="58.846741"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="600"
+     letter-spacing="0.5"
+     fill="#000000"
+     id="text1"
+     style="fill:#333333"><tspan
+       style="fill:#4d4d4d"
+       id="tspan24">Legacy Boundaries</tspan></text>
+  <text
+     x="426.28607"
+     y="101.47983"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#000000"
+     id="text2"><tspan
+       style="fill:#4d4d4d"
+       id="tspan25">(low modularity)</tspan></text>
+  <text
+     x="1139.0216"
+     y="58.846741"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="600"
+     letter-spacing="0.5"
+     fill="#000000"
+     id="text3"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:28px;line-height:normal;font-family:Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0.5;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">Target Boundaries</text>
+  <text
+     x="1138.8302"
+     y="101.47983"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#000000"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:28px;line-height:normal;font-family:Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">(good modularity)</text>
+  <rect
+     x="86.060173"
+     y="173.33842"
+     width="320.08954"
+     height="388.0434"
+     rx="10.002798"
+     fill="#f9f9f9"
+     stroke="#999999"
+     stroke-width="5.91047"
+     id="rect4" />
+  <rect
+     x="446.06018"
+     y="173.33842"
+     width="320.08954"
+     height="388.0434"
+     rx="10.002798"
+     fill="#f9f9f9"
+     stroke="#999999"
+     stroke-width="5.91047"
+     id="rect5" />
+  <text
+     x="246.10495"
+     y="219.52994"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text5">Legacy System X</text>
+  <text
+     x="605.22681"
+     y="216.01752"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text6">Legacy System Y</text>
+  <rect
+     x="126.10494"
+     y="253.38318"
+     width="240"
+     height="60"
+     rx="8"
+     fill="#ffd6e6"
+     stroke="#999999"
+     stroke-width="6"
+     id="rect6" />
+  <text
+     x="246.10495"
+     y="293.38318"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text7">Domain A</text>
+  <rect
+     x="126.10494"
+     y="353.38318"
+     width="240"
+     height="60"
+     rx="8"
+     fill="#d6e9ff"
+     stroke="#999999"
+     stroke-width="6"
+     id="rect7" />
+  <text
+     x="246.10495"
+     y="393.38318"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text8">Domain B</text>
+  <rect
+     x="126.10494"
+     y="453.38318"
+     width="240"
+     height="60"
+     rx="8"
+     fill="#fff1d6"
+     stroke="#999999"
+     stroke-width="6"
+     id="rect8" />
+  <text
+     x="246.10495"
+     y="493.38318"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text9">Domain C</text>
+  <rect
+     x="486.10495"
+     y="253.38318"
+     width="240"
+     height="60"
+     rx="8"
+     fill="#d6e9ff"
+     stroke="#999999"
+     stroke-width="6"
+     id="rect9" />
+  <text
+     x="606.10492"
+     y="293.38318"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text10">Domain B</text>
+  <rect
+     x="486.10495"
+     y="353.38318"
+     width="240"
+     height="60"
+     rx="8"
+     fill="#fff1d6"
+     stroke="#999999"
+     stroke-width="6"
+     id="rect10" />
+  <text
+     x="606.10492"
+     y="393.38318"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text11">Domain C</text>
+  <rect
+     x="486.10495"
+     y="453.38318"
+     width="240"
+     height="60"
+     rx="8"
+     fill="#ffd6e6"
+     stroke="#999999"
+     stroke-width="6"
+     id="rect11" />
+  <text
+     x="606.10492"
+     y="493.38318"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="32px"
+     font-weight="500"
+     fill="#666666"
+     id="text12">Domain A</text>
+  <rect
+     x="890.17999"
+     y="156.02458"
+     width="219.25197"
+     height="177.68837"
+     rx="9.9659986"
+     fill="#fafafe"
+     stroke="#7b2cbf"
+     stroke-width="6.74803"
+     id="rect14" />
+  <text
+     x="999.80597"
+     y="200.84468"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text14">Subsystem A</text>
+  <rect
+     x="930.40411"
+     y="226.43378"
+     width="138.8037"
+     height="87.055046"
+     rx="7.9316401"
+     fill="#ffd6e6"
+     stroke="#7b2cbf"
+     stroke-width="7.1963"
+     id="rect15"
+     style="stroke-width:5;stroke-dasharray:none" />
+  <text
+     x="999.80597"
+     y="264.74902"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text15"><tspan
+       sodipodi:role="line"
+       id="tspan45"
+       x="999.80597"
+       y="264.74902">Domain</tspan><tspan
+       sodipodi:role="line"
+       id="tspan46"
+       x="999.80597"
+       y="299.74902">A</tspan></text>
+  <rect
+     x="1170.1512"
+     y="159.11232"
+     width="219.30943"
+     height="174.62936"
+     rx="9.9686108"
+     fill="#fafafe"
+     stroke="#7b2cbf"
+     stroke-width="6.69057"
+     id="rect16" />
+  <text
+     x="1278.7671"
+     y="198.76703"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text16">Subsystem B</text>
+  <rect
+     x="1210.4001"
+     y="226.633"
+     width="138.81157"
+     height="86.859764"
+     rx="7.9320898"
+     fill="#d6e9ff"
+     stroke="#7b2cbf"
+     stroke-width="7.18843"
+     id="rect17"
+     style="stroke-width:5;stroke-dasharray:none" />
+  <text
+     x="1279.8059"
+     y="264.99997"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text17"><tspan
+       sodipodi:role="line"
+       id="tspan43"
+       x="1279.8059"
+       y="264.99997">Domain</tspan><tspan
+       sodipodi:role="line"
+       id="tspan44"
+       x="1279.8059"
+       y="299.99997">B</tspan></text>
+  <rect
+     x="1033.4788"
+     y="444.38919"
+     width="219.37489"
+     height="171.1779"
+     rx="9.9715862"
+     fill="#fafafe"
+     stroke="#7b2cbf"
+     stroke-width="6.62511"
+     id="rect18" />
+  <text
+     x="1142.0563"
+     y="597.61823"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text18">Subsystem C</text>
+  <rect
+     x="1073.7418"
+     y="466.08099"
+     width="138.84877"
+     height="85.940224"
+     rx="7.9342155"
+     fill="#fff1d6"
+     stroke="#7b2cbf"
+     stroke-width="7.15123"
+     id="rect19"
+     style="stroke-width:5;stroke-dasharray:none" />
+  <text
+     x="1142.0563"
+     y="500.79376"
+     text-anchor="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="28px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text19"><tspan
+       sodipodi:role="line"
+       id="tspan47"
+       x="1142.0563"
+       y="500.79376">Domain</tspan><tspan
+       sodipodi:role="line"
+       id="tspan48"
+       x="1142.0563"
+       y="535.79376">C</tspan></text>
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:2.73053;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:8.19158;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 87.363777,510.94572 C 72.814825,502.25814 60.922886,489.18597 53.646655,473.8823 43.862573,453.30401 42.60202,429.40336 46.750039,406.99826 c 4.14802,-22.40509 13.412445,-43.54679 23.946426,-63.75148 6.264507,-12.01563 13.003898,-23.78366 20.197161,-35.26741"
+     id="path32"
+     inkscape:path-effect="#path-effect33"
+     inkscape:original-d="M 87.363777,510.94572 C 79.421615,500.06202 62.471279,486.53093 53.646655,473.8823 44.822031,461.23368 75.402931,370.30896 70.696465,343.24678 65.989998,316.1846 76.480074,336.51233 90.893626,307.97937"
+     transform="matrix(1.2600539,0,0,0.99864749,9.8593953,-26.061192)"
+     sodipodi:nodetypes="cssc" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 141.98166,478.37796 c 1.00699,-4.35664 3.31176,-8.40475 6.54423,-11.49433 3.23247,-3.08957 7.38058,-5.20908 11.77827,-6.0182 5.51244,-1.01422 11.19369,0.002 16.78377,-0.40673 2.79503,-0.20416 5.60235,-0.78022 8.08466,-2.08102 2.48231,-1.30079 4.62433,-3.38024 5.63467,-5.99427 0.7095,-1.83568 0.83696,-3.89143 0.35964,-5.80069 -0.47732,-1.90927 -1.55719,-3.66318 -3.04707,-4.94902"
+     id="path33"
+     inkscape:path-effect="#path-effect34"
+     inkscape:original-d="m 141.98166,478.37796 c 10.1525,0.2986 -0.81223,-21.41046 18.3225,-17.51253 10.92437,2.2254 25.42685,-2.80857 30.5031,-8.48202 5.07625,-5.67346 -1.79162,-6.86787 -2.68743,-10.74971"
+     sodipodi:nodetypes="cssc"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 333.22755,416.99984 c 6.01869,-8.20555 11.31999,-16.9371 15.82365,-26.06249 2.0751,-4.2046 3.99062,-8.51944 5.13708,-13.0659 1.14647,-4.54647 1.50117,-9.35848 0.44774,-13.9274 -1.31433,-5.7005 -4.69952,-10.6586 -7.44642,-15.82365 -2.60918,-4.90607 -4.71353,-10.26723 -4.65402,-15.82365 0.051,-4.75762 1.67726,-9.33411 3.05298,-13.88877 1.37572,-4.55466 2.52399,-9.36781 1.60104,-14.03533 -0.65952,-3.33532 -2.39167,-6.44992 -4.87719,-8.76973 -2.48552,-2.31982 -5.71203,-3.8333 -9.08486,-4.26151"
+     id="path34"
+     inkscape:path-effect="#path-effect35"
+     inkscape:original-d="m 333.22755,416.99984 c 5.27455,-7.7567 10.5491,-17.375 15.82365,-26.06249 5.27455,-8.6875 3.72322,-17.68526 5.58482,-26.9933 1.86161,-9.30803 -4.96428,-10.85937 -7.44642,-15.82365 -2.48215,-4.96428 -2.79241,-10.5491 -4.65402,-15.82365 -1.86161,-5.27456 2.79241,-18.3058 4.65402,-27.9241 1.8616,-9.6183 -9.6183,-5.89509 -13.96205,-13.03124"
+     sodipodi:nodetypes="csssssc"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 179.64502,379.76771 c -4.80785,-0.8024 -9.3715,-3.01586 -12.97823,-6.2947 -3.60673,-3.27884 -6.24382,-7.61152 -7.49944,-12.32137 -1.52623,-5.72493 -1.02046,-11.76106 -0.9308,-17.68526 0.0188,-1.24098 0.0188,-2.48223 0,-3.72321"
+     id="path35"
+     inkscape:path-effect="#path-effect36"
+     inkscape:original-d="m 179.64502,379.76771 c -6.82589,-5.89509 -13.65178,-12.72098 -20.47767,-18.61607 -6.82589,-5.89508 -0.62054,-12.10044 -0.9308,-17.68526 -0.31027,-5.58482 0,-1.8616 0,-3.72321"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 333.22755,513.80337 c 11.0723,-6.12183 21.16667,-14.00806 29.7857,-23.27008 8.42116,-9.04939 15.44177,-19.42726 20.47767,-30.71651 3.85316,-8.63784 6.55478,-17.80644 11.16964,-26.06249 5.61556,-10.04632 13.91919,-18.4217 23.27008,-25.13168 6.1074,-4.38253 12.68569,-8.09864 19.54687,-11.16964 3.94634,-1.76635 7.98757,-3.32067 12.10044,-4.65402"
+     id="path36"
+     inkscape:path-effect="#path-effect37"
+     inkscape:original-d="m 333.22755,513.80337 c 8.99776,-7.75669 19.85713,-15.51339 29.7857,-23.27008 9.92857,-7.75669 13.65178,-20.78794 20.47767,-30.71651 6.82589,-9.92856 7.13616,-17.06472 11.16964,-26.06249 4.03348,-8.99776 16.13392,-17.06472 23.27008,-25.13168 7.13616,-8.06696 13.03125,-7.7567 19.54687,-11.16964 6.51562,-3.41295 7.44642,-2.48214 12.10044,-4.65402"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 448.64715,300.64944 c -7.95477,2.11405 -15.54496,5.59289 -22.33928,10.23883 -9.99036,6.83139 -18.09317,16.02317 -26.06249,25.13169 -8.63384,9.86802 -17.68493,20.08267 -29.7857,25.13168 -8.13584,3.39465 -17.15515,4.20058 -25.95742,3.71529 -8.80228,-0.48529 -17.48094,-2.21258 -26.16756,-3.71529 -6.5021,-1.12481 -13.14107,-2.12764 -19.67513,-1.20648 -3.26703,0.46058 -6.48386,1.40959 -9.37819,2.9934 -2.89434,1.5838 -5.45978,3.81761 -7.24801,6.59031 -1.77907,2.75849 -2.75925,6.02578 -2.79241,9.30804"
+     id="path37"
+     inkscape:path-effect="#path-effect38"
+     inkscape:original-d="m 448.64715,300.64944 c -6.20536,2.48214 -15.20312,6.82589 -22.33928,10.23883 -7.13616,3.41295 -17.37499,17.06473 -26.06249,25.13169 -8.6875,8.06696 -19.54687,16.13392 -29.7857,25.13168 -10.23884,8.99777 -34.74999,0.31027 -52.12498,0 -17.375,-0.31026 -24.20089,5.89509 -36.30133,8.37723 -12.10044,2.48215 -1.55134,5.58482 -2.79241,9.30804"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 449.57795,503.56454 c -11.77212,-9.62269 -22.15187,-20.94605 -30.71651,-33.50892 -12.25258,-17.97245 -20.82867,-38.80307 -22.33927,-60.50221 -1.037,-14.89607 1.23956,-29.82803 1.0596,-44.75907 -0.09,-7.46551 -0.80365,-14.96641 -2.81889,-22.15535 -2.01524,-7.18894 -5.37402,-14.07627 -10.34116,-19.65028 -6.10715,-6.8533 -14.6006,-11.5378 -23.6553,-13.04692 -9.0547,-1.50912 -18.60834,0.16754 -26.60807,4.66969"
+     id="path38"
+     inkscape:path-effect="#path-effect39"
+     inkscape:original-d="m 449.57795,503.56454 c -9.6183,-9.6183 -20.1674,-22.02901 -30.71651,-33.50892 -10.5491,-11.47991 -14.89285,-40.33481 -22.33927,-60.50221 -7.44643,-20.1674 -8.37723,-57.39953 -12.10045,-86.5647 -3.72321,-29.16516 -33.19864,-5.58482 -50.26337,-8.37723"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 283.89498,477.50205 c -4.77528,1.20461 -10.05355,0.24223 -14.0964,-2.5702 -4.04286,-2.81242 -6.7808,-7.42652 -7.31208,-12.32266 -0.60532,-5.57841 1.55006,-11.1492 4.65402,-15.82365 0.85863,-1.29307 1.79148,-2.53686 2.79241,-3.72321"
+     id="path39"
+     inkscape:path-effect="#path-effect40"
+     inkscape:original-d="m 283.89498,477.50205 c -6.51562,-3.72322 -13.96205,-9.30804 -21.40848,-14.89286 -7.44642,-5.58482 3.72322,-11.16963 4.65402,-15.82365 0.9308,-4.65402 1.24107,-1.86161 2.79241,-3.72321"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 691.06345,311.95341 c 4.80797,13.86588 14.0311,26.16339 25.99612,34.66149 6.26401,4.44898 13.20479,7.85245 19.65505,12.02682 6.45026,4.17437 12.55946,9.31147 16.08961,16.13564 3.10275,5.99794 4.00679,12.99457 3.20911,19.70024 -0.79767,6.70568 -3.23048,13.14172 -6.46362,19.07039 -6.46629,11.85734 -16.01943,21.69662 -23.82478,32.71869 -6.08664,8.59505 -11.09755,17.89237 -16.24757,27.07929 -4.03018,7.18928 -8.15626,14.32852 -11.91489,21.66343 -0.73638,1.43704 -1.45854,2.88136 -2.16634,4.33269"
+     id="path40"
+     inkscape:path-effect="#path-effect41"
+     inkscape:original-d="m 691.06345,311.95341 c 7.94326,11.19277 16.96969,23.46871 25.99612,34.66149 9.02643,11.19277 32.13409,17.6918 35.74466,28.16246 3.61057,10.47066 -26.35717,48.38166 -27.07929,71.48932 -0.72211,23.10766 -11.19277,18.77497 -16.24757,27.07929 -5.0548,8.30431 -7.5822,13.72017 -11.91489,21.66343 -4.33269,7.94326 -1.44423,2.88846 -2.16634,4.33269"
+     sodipodi:nodetypes="csssssc"
+     transform="translate(33.340418,-26.616812)" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 656.59249,374.97158 c -3.43743,-0.26629 -6.80158,-1.42859 -9.67027,-3.34105 -2.86869,-1.91245 -5.23549,-4.57078 -6.80338,-7.64138 -0.83499,-1.63527 -1.44393,-3.37646 -2.23682,-5.03255 -0.7929,-1.65609 -1.80059,-3.25947 -3.25439,-4.38097 -1.29826,-1.00151 -2.90072,-1.56926 -4.52922,-1.76024 -1.62851,-0.19099 -3.2848,-0.018 -4.88137,0.35547 -3.19316,0.74685 -6.1422,2.27406 -9.23239,3.37167 -7.91056,2.80977 -16.82133,2.70169 -24.66142,-0.29911 -7.84008,-3.0008 -14.5458,-8.86994 -18.55871,-16.24343"
+     id="path41"
+     inkscape:path-effect="#path-effect42"
+     inkscape:original-d="m 656.59249,374.97158 c -4.70676,-2.35338 -10.98243,-7.06014 -16.47365,-10.98243 -5.49121,-3.9223 23.7569,-11.57595 -5.49121,-9.41352 -3.49865,0.25867 -16.02811,3.01284 -18.64298,1.9669 -2.61486,-1.04595 -40.86675,-11.83579 -43.22013,-16.54254"
+     transform="translate(33.340418,-26.616812)"
+     sodipodi:nodetypes="csssc" />
+  <path
+     style="fill:none;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 469.89116,478.52021 c 6.86503,-3.32727 13.94471,-6.21158 21.1804,-8.62905 10.05141,-3.35821 20.37847,-5.80897 30.59392,-8.62905 7.38297,-2.03815 14.84116,-4.33064 21.1804,-8.62905 4.00285,-2.71419 7.48379,-6.19513 10.19797,-10.19798"
+     id="path42"
+     inkscape:path-effect="#path-effect43"
+     inkscape:original-d="m 469.89116,478.52021 c 6.79865,-2.61486 14.38176,-6.01418 21.1804,-8.62905 6.79865,-2.61486 20.13446,-5.7527 30.59392,-8.62905 10.45946,-2.87635 14.12027,-5.49122 21.1804,-8.62905 7.06014,-3.13784 6.79865,-6.79865 10.19797,-10.19798"
+     transform="translate(33.340418,-26.616812)" />
+  <rect
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#7b2cbf;fill-opacity:1;stroke:#7b2cbf;stroke-width:6.74803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     id="rect48"
+     width="70.792519"
+     height="32.366062"
+     x="964.79663"
+     y="316.04242"
+     rx="4.9496799" />
+  <rect
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#7b2cbf;fill-opacity:1;stroke:#7b2cbf;stroke-width:6.74803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     id="rect49"
+     width="70.792519"
+     height="32.366062"
+     x="1106.8529"
+     y="432.57312"
+     rx="4.9496799" />
+  <rect
+     style="font-variation-settings:normal;vector-effect:none;fill:#7b2cbf;fill-opacity:1;stroke:#7b2cbf;stroke-width:6.74803;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+     id="rect49-3"
+     width="70.792519"
+     height="32.366062"
+     x="1245.2593"
+     y="315.26468"
+     rx="4.9496799" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     d="m 1003.5303,394.3215 127.3722,80.67974"
+     id="path49"
+     inkscape:path-effect="#path-effect49"
+     inkscape:original-d="m 1003.5303,394.3215 c 46.2423,27.00553 83.3495,53.67422 127.3722,80.67974"
+     sodipodi:nodetypes="cc"
+     transform="translate(-3.3374298,-45.913021)" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6d6d6d;stroke-width:3.063;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:15.2;stroke-dasharray:9.189;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none"
+     d="m 1283.993,393.54376 -122.0157,81.45748"
+     id="path50"
+     inkscape:path-effect="#path-effect50"
+     inkscape:original-d="m 1283.993,393.54376 c -40.3233,26.26565 -82.8022,54.08202 -122.0157,81.45748"
+     sodipodi:nodetypes="cc"
+     transform="translate(-3.3374298,-45.913021)" />
+</svg>
