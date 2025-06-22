@@ -128,12 +128,12 @@ When creating SVG diagrams and illustrations for pattern documentation, follow t
 
 ### Visual Elements
 - **Border Width**: 3px for all container and content boxes
-- **Border Radius**: 10px for main containers, 8px for content boxes
+- **Border Radius**: 10px for main containers, 6px for content boxes
 - **Arrow Style**: 
   - Color: `#4a4a4a` (neutral dark grey)
   - Width: 2px
   - Style: Dashed (`stroke-dasharray="5,3"`)
-  - Arrowheads: 12x8px, positioned to touch (not penetrate) target borders
+  - Arrowheads: 12x8px, positioned to almost touch (not penetrate) target borders but not quite touch (leave a small gap)
 
 ### Layout Principles
 - Center content boxes within container backgrounds
@@ -145,7 +145,7 @@ When creating SVG diagrams and illustrations for pattern documentation, follow t
 - IMPORTANT: text should never overflow out of boxes. This rule can never be violated.
 
 ### Container Layout Requirements
-- **Equal Padding Rule**: ALL content within containers must have equal padding on all sides (exactly 20px)
+- **Equal Padding Rule**: ALL content within containers must have equal padding on all sides
 - **Proximity Principle**: Container dimensions must EXACTLY fit content plus padding - no wasted space allowed
 - **Container Sizing Formula**: 
   - Width = content_width + (2 × padding)
