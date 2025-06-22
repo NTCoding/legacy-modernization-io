@@ -1,89 +1,365 @@
-<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 600"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="semantic-drift.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.75415132"
+     inkscape:cx="578.79631"
+     inkscape:cy="182.32415"
+     inkscape:window-width="1320"
+     inkscape:window-height="814"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg17" />
   <!-- Background -->
-  <rect width="1200" height="600" fill="#ffffff"/>
-  
-  
+  <rect
+     width="1200"
+     height="600"
+     fill="#ffffff"
+     id="rect1" />
   <!-- Legacy System Side -->
-  <rect x="50" y="50" width="450" height="480" fill="#f9f9f9" stroke="#999999" stroke-width="3" rx="10"/>
-  <text x="275" y="85" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" fill="#666666" letter-spacing="0.5px">
+  <rect
+     x="50"
+     y="50"
+     width="450"
+     height="480"
+     fill="#f9f9f9"
+     stroke="#999999"
+     stroke-width="3"
+     rx="10"
+     id="rect2" />
+  <text
+     x="275"
+     y="85"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="600"
+     fill="#666666"
+     letter-spacing="0.5px"
+     id="text2">
     LEGACY SYSTEM LANGUAGE
   </text>
-  
   <!-- Modern Business Side -->
-  <rect x="700" y="50" width="450" height="480" fill="#fafafe" stroke="#7b2cbf" stroke-width="3" rx="10"/>
-  <text x="925" y="85" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="600" fill="#7b2cbf" letter-spacing="0.5px">
+  <rect
+     x="700"
+     y="50"
+     width="450"
+     height="480"
+     fill="#fafafe"
+     stroke="#7b2cbf"
+     stroke-width="3"
+     rx="10"
+     id="rect3" />
+  <text
+     x="925"
+     y="85"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="600"
+     fill="#7b2cbf"
+     letter-spacing="0.5px"
+     id="text3">
     CURRENT BUSINESS TERMINOLOGY
   </text>
-  
   <!-- Domain Concept Pairs -->
-  
   <!-- Concept 1 -->
-  <rect x="95" y="120" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="155" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
+  <rect
+     x="95"
+     y="120"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#999999"
+     stroke-width="3"
+     rx="8"
+     id="rect4" />
+  <text
+     x="275"
+     y="155"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#666666"
+     id="text4">
     Patient Record
   </text>
-  
-  <rect x="745" y="120" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="155" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
+  <rect
+     x="745"
+     y="120"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#7b2cbf"
+     stroke-width="3"
+     rx="8"
+     id="rect5" />
+  <text
+     x="925"
+     y="155"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text5">
     Health Consumer
   </text>
-  
   <!-- Concept 2 -->
-  <rect x="95" y="200" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="235" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
+  <rect
+     x="95"
+     y="200"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#999999"
+     stroke-width="3"
+     rx="8"
+     id="rect6" />
+  <text
+     x="275"
+     y="235"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#666666"
+     id="text6">
     Appointment Slot
   </text>
-  
-  <rect x="745" y="200" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="235" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
+  <rect
+     x="745"
+     y="200"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#7b2cbf"
+     stroke-width="3"
+     rx="8"
+     id="rect7" />
+  <text
+     x="925"
+     y="235"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text7">
     Care Encounter
   </text>
-  
   <!-- Concept 3 -->
-  <rect x="95" y="280" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="315" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
+  <rect
+     x="95"
+     y="280"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#999999"
+     stroke-width="3"
+     rx="8"
+     id="rect8" />
+  <text
+     x="275"
+     y="315"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#666666"
+     id="text8">
     Procedure Code
   </text>
-  
-  <rect x="745" y="280" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="315" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segue UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
+  <rect
+     x="745"
+     y="280"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#7b2cbf"
+     stroke-width="3"
+     rx="8"
+     id="rect9" />
+  <text
+     x="925"
+     y="315"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segue UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text9">
     Care Intervention
   </text>
-  
   <!-- Concept 4 -->
-  <rect x="95" y="360" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="395" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
+  <rect
+     x="95"
+     y="360"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#999999"
+     stroke-width="3"
+     rx="8"
+     id="rect10" />
+  <text
+     x="275"
+     y="395"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#666666"
+     id="text10">
     Patient Compliance
   </text>
-  
-  <rect x="745" y="360" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="395" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
+  <rect
+     x="745"
+     y="360"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#7b2cbf"
+     stroke-width="3"
+     rx="8"
+     id="rect11" />
+  <text
+     x="925"
+     y="395"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text11">
     Patient Engagement
   </text>
-  
   <!-- Concept 5 -->
-  <rect x="95" y="440" width="360" height="60" fill="#ffffff" stroke="#999999" stroke-width="3" rx="8"/>
-  <text x="275" y="475" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">
+  <rect
+     x="95"
+     y="440"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#999999"
+     stroke-width="3"
+     rx="8"
+     id="rect12" />
+  <text
+     x="275"
+     y="475"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#666666"
+     id="text12">
     Discharge
   </text>
-  
-  <rect x="745" y="440" width="360" height="60" fill="#ffffff" stroke="#7b2cbf" stroke-width="3" rx="8"/>
-  <text x="925" y="475" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">
+  <rect
+     x="745"
+     y="440"
+     width="360"
+     height="60"
+     fill="#ffffff"
+     stroke="#7b2cbf"
+     stroke-width="3"
+     rx="8"
+     id="rect13" />
+  <text
+     x="925"
+     y="475"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="20"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text13">
     Care Transition
   </text>
-  
   <!-- Arrows showing evolution -->
-  <defs>
-    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
-      <polygon points="0 0, 12 4, 0 8" fill="#4a4a4a" />
+  <defs
+     id="defs13">
+    <marker
+       id="arrowhead"
+       markerWidth="12"
+       markerHeight="8"
+       refX="11"
+       refY="4"
+       orient="auto">
+      <polygon
+         points="0 0, 12 4, 0 8"
+         fill="#4a4a4a"
+         id="polygon13" />
     </marker>
   </defs>
-  
   <!-- Evolution arrows -->
-  <line x1="470" y1="150" x2="745" y2="150" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  <line x1="470" y1="230" x2="745" y2="230" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  <line x1="470" y1="310" x2="745" y2="310" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  <line x1="470" y1="390" x2="745" y2="390" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  <line x1="470" y1="470" x2="745" y2="470" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  
+  <line
+     x1="469.97159"
+     y1="150.02681"
+     x2="737.33881"
+     y2="150.02681"
+     stroke="#4a4a4a"
+     stroke-width="1.97189"
+     stroke-dasharray="5, 3"
+     marker-end="url(#arrowhead)"
+     id="line13" />
+  <line
+     x1="469.97159"
+     y1="230.01341"
+     x2="736.13721"
+     y2="230.01341"
+     stroke="#4a4a4a"
+     stroke-width="1.96744"
+     stroke-dasharray="5, 3"
+     marker-end="url(#arrowhead)"
+     id="line14" />
+  <line
+     x1="470.04053"
+     y1="309.93707"
+     x2="737.27081"
+     y2="309.93707"
+     stroke="#4a4a4a"
+     stroke-width="1.97215"
+     stroke-dasharray="5, 3"
+     marker-end="url(#arrowhead)"
+     id="line15" />
+  <line
+     x1="470.04053"
+     y1="389.9866"
+     x2="737.27081"
+     y2="389.9866"
+     stroke="#4a4a4a"
+     stroke-width="1.97215"
+     stroke-dasharray="5, 3"
+     marker-end="url(#arrowhead)"
+     id="line16" />
+  <line
+     x1="470.04053"
+     y1="470.03613"
+     x2="737.27081"
+     y2="470.03613"
+     stroke="#4a4a4a"
+     stroke-width="1.97215"
+     stroke-dasharray="5, 3"
+     marker-end="url(#arrowhead)"
+     id="line17" />
 </svg>
