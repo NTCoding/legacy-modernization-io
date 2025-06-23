@@ -1,47 +1,255 @@
-<svg width="280" height="280" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="280"
+   height="280"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="bubble-feature.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.83097885"
+     inkscape:cx="24.669701"
+     inkscape:cy="7.8221004"
+     inkscape:window-width="1440"
+     inkscape:window-height="814"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
   <!-- Definitions for arrowheads -->
-  <defs>
-    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto" markerUnits="userSpaceOnUse">
-      <polygon points="0,0 12,4 0,8" fill="#4a4a4a"/>
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="12"
+       markerHeight="8"
+       refX="12"
+       refY="4"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <polygon
+         points="0,0 12,4 0,8"
+         fill="#4a4a4a"
+         id="polygon1" />
     </marker>
   </defs>
-  
   <!-- Background -->
-  <rect width="280" height="280" fill="#ffffff"/>
-  
+  <rect
+     width="280"
+     height="280"
+     fill="#ffffff"
+     id="rect1" />
   <!-- Bubble Container - smaller size -->
-  <rect x="95" y="20" width="90" height="80" rx="10" fill="#fafafe" stroke="#7b2cbf" stroke-width="1"/>
-  <text x="140" y="35" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="500" fill="#7b2cbf" dy="0.35em">Bubble</text>
-  
+  <rect
+     x="95"
+     y="20"
+     width="90"
+     height="80"
+     rx="10"
+     fill="#fafafe"
+     stroke="#7b2cbf"
+     stroke-width="1"
+     id="rect2" />
+  <text
+     x="140"
+     y="35"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="16"
+     font-weight="500"
+     fill="#7b2cbf"
+     dy="0.35em"
+     id="text2">Bubble</text>
   <!-- Domain Model Circle - proportioned within smaller bubble -->
-  <circle cx="140" cy="70" r="20" fill="none" stroke="#4a4a4a" stroke-width="1.5" stroke-dasharray="4,2"/>
-  
+  <circle
+     cx="140"
+     cy="70"
+     r="20"
+     fill="none"
+     stroke="#4a4a4a"
+     stroke-width="1.5"
+     stroke-dasharray="4,2"
+     id="circle2"
+     style="stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke:#7a7a7a;stroke-opacity:1;fill:#ffffff;fill-opacity:1" />
   <!-- Domain Elements - adjusted for smaller circle -->
-  <ellipse cx="130" cy="60" rx="5" ry="3" fill="#d5d5d5" transform="rotate(-15 130 60)"/>
-  <ellipse cx="150" cy="65" rx="5" ry="3" fill="#d5d5d5" transform="rotate(20 150 65)"/>
-  <ellipse cx="135" cy="75" rx="5" ry="3" fill="#d5d5d5" transform="rotate(-8 135 75)"/>
-  <ellipse cx="148" cy="78" rx="5" ry="3" fill="#d5d5d5" transform="rotate(25 148 78)"/>
-  <ellipse cx="128" cy="80" rx="5" ry="3" fill="#d5d5d5" transform="rotate(-20 128 80)"/>
-  
+  <ellipse
+     cx="130"
+     cy="60"
+     rx="5"
+     ry="3"
+     fill="#d5d5d5"
+     transform="rotate(-15 130 60)"
+     id="ellipse2" />
+  <ellipse
+     cx="161.09741"
+     cy="4.5987163"
+     rx="5"
+     ry="3"
+     fill="#d5d5d5"
+     transform="rotate(20)"
+     id="ellipse3" />
+  <ellipse
+     cx="117.53797"
+     cy="87.71804"
+     rx="5"
+     ry="3"
+     fill="#d5d5d5"
+     transform="rotate(-8)"
+     id="ellipse4" />
+  <ellipse
+     cx="167.09245"
+     cy="3.4281216"
+     rx="5"
+     ry="3"
+     fill="#d5d5d5"
+     transform="rotate(25)"
+     id="ellipse5" />
+  <ellipse
+     cx="98.501862"
+     cy="123.66673"
+     rx="5"
+     ry="3"
+     fill="#d5d5d5"
+     transform="rotate(-20)"
+     id="ellipse6" />
   <!-- Elegant curved connections showing relationships -->
-  <path d="M 135 63 Q 140 68 145 68" stroke="#999999" stroke-width="0.8" fill="none" opacity="0.7"/>
-  <path d="M 145 73 Q 142 76 140 79" stroke="#999999" stroke-width="0.8" fill="none" opacity="0.7"/>
-  <path d="M 140 79 Q 135 81 132 79" stroke="#999999" stroke-width="0.8" fill="none" opacity="0.7"/>
-  
+  <path
+     d="m 133.87448,61.224212 c 3.31062,3.855614 11.16752,10.394298 14.90866,1.014806"
+     stroke="#999999"
+     stroke-width="0.8"
+     fill="none"
+     opacity="0.7"
+     id="path6"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 148.78314,62.239018 c -2,2 3.80645,6.765314 2.47312,8.765314"
+     stroke="#999999"
+     stroke-width="0.8"
+     fill="none"
+     opacity="0.7"
+     id="path7"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 148.72055,76.442179 c -2,2 -2.75902,6.076916 -9.1641,4.366816"
+     stroke="#999999"
+     stroke-width="0.8"
+     fill="none"
+     opacity="0.7"
+     id="path7-3"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 148.78314,62.239018 c -1.87742,6.338036 -15.88439,12.072412 -17.88439,10.739079"
+     stroke="#999999"
+     stroke-width="0.8"
+     fill="none"
+     opacity="0.7"
+     id="path8"
+     sodipodi:nodetypes="cc" />
   <!-- ACL - narrower than other boxes -->
-  <rect x="100" y="130" width="80" height="30" rx="8" fill="none" stroke="#7b2cbf" stroke-width="1" stroke-dasharray="8,3"/>
-  <text x="140" y="145" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="500" fill="#7b2cbf" dy="0.35em">ACL</text>
-  
+  <rect
+     x="100"
+     y="130"
+     width="80"
+     height="30"
+     rx="8"
+     fill="none"
+     stroke="#7b2cbf"
+     stroke-width="1"
+     stroke-dasharray="8,3"
+     id="rect8" />
+  <text
+     x="140"
+     y="145"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="13"
+     font-weight="500"
+     fill="#7b2cbf"
+     dy="0.35em"
+     id="text8">ACL</text>
   <!-- Legacy System 1 - taller, side-by-side with proper gap -->
-  <rect x="40" y="190" width="80" height="60" rx="10" fill="#f9f9f9" stroke="#999999" stroke-width="1"/>
-  <text x="80" y="220" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="500" fill="#666666" dy="0.35em">Legacy</text>
-  
+  <rect
+     x="40"
+     y="190"
+     width="80"
+     height="60"
+     rx="10"
+     fill="#f9f9f9"
+     stroke="#999999"
+     stroke-width="1"
+     id="rect9" />
+  <text
+     x="80"
+     y="220"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="16"
+     font-weight="500"
+     fill="#666666"
+     dy="0.35em"
+     id="text9">Legacy</text>
   <!-- Legacy System 2 - taller, side-by-side with proper gap -->
-  <rect x="160" y="190" width="80" height="60" rx="10" fill="#f9f9f9" stroke="#999999" stroke-width="1"/>
-  <text x="200" y="220" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="500" fill="#666666" dy="0.35em">Legacy</text>
-  
+  <rect
+     x="160"
+     y="190"
+     width="80"
+     height="60"
+     rx="10"
+     fill="#f9f9f9"
+     stroke="#999999"
+     stroke-width="1"
+     id="rect10" />
+  <text
+     x="200"
+     y="220"
+     text-anchor="middle"
+     font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif"
+     font-size="16"
+     font-weight="500"
+     fill="#666666"
+     dy="0.35em"
+     id="text10">Legacy</text>
   <!-- Arrows with proper spacing and length -->
-  <line x1="140" y1="100" x2="140" y2="130" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  <line x1="140" y1="160" x2="80" y2="190" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
-  <line x1="140" y1="160" x2="200" y2="190" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line
+     x1="140"
+     y1="100"
+     x2="140"
+     y2="130"
+     stroke="#4a4a4a"
+     stroke-width="2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arrowhead)"
+     id="line10" />
+  <line
+     x1="140"
+     y1="160"
+     x2="80"
+     y2="190"
+     stroke="#4a4a4a"
+     stroke-width="2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arrowhead)"
+     id="line11" />
+  <line
+     x1="140"
+     y1="160"
+     x2="200"
+     y2="190"
+     stroke="#4a4a4a"
+     stroke-width="2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arrowhead)"
+     id="line12" />
 </svg>
