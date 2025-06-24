@@ -1,0 +1,4 @@
+/* Hide the left sidebar navigation at all screen sizes */
+.show6 {
+  display: none !important;
+}
