@@ -1,0 +1,34 @@
+/* Simple homepage fix - centered and scrollable */
+
+/* Ensure body and html can scroll */
+html, body {
+  height: auto !important;
+  overflow-y: auto !important;
+}
+
+/* Target homepage by presence of hero-section */
+.l-page:has(.hero-section) {
+  height: auto !important;
+  min-height: 100vh !important;  
+  display: block !important;
+  grid: none !important;
+  position: relative !important;
+  width: 100% !important;
+  overflow: visible !important;
+}
+
+.l-page:has(.hero-section) #l-main {
+  display: block !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+  height: auto !important;
+  position: static !important;
+  overflow: visible !important;
+}
+
+/* Ensure hero section has top padding for navigation */
+.hero-section {
+  padding-top: 15rem !important;
+}
