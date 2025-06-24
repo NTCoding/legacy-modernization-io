@@ -1,8 +1,9 @@
-/* Simple homepage fix - centered and scrollable */
+/* Modern responsive homepage layout - optimal for all screen sizes */
 
 /* Ensure body and html can scroll */
 html, body {
   height: auto !important;
+  overflow-x: hidden !important;
   overflow-y: auto !important;
 }
 
@@ -20,15 +21,128 @@ html, body {
 .l-page:has(.hero-section) #l-main {
   display: block !important;
   width: 100% !important;
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 0 2rem !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
   height: auto !important;
   position: static !important;
   overflow: visible !important;
 }
 
-/* Ensure hero section has top padding for navigation */
+/* Hero section responsive design */
 .hero-section {
-  padding-top: 15rem !important;
+  padding: 15rem 5% 8rem 5% !important;
+  background: linear-gradient(135deg, var(--c-bg-alt, #f7f7f9) 0%, #fafafe 100%) !important;
+}
+
+/* Hero content container - responsive max-widths */
+.hero-content {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Featured patterns section - enhanced for wide screens */
+.home-section--patterns {
+  padding: 6rem 3% 4rem 3% !important;
+}
+
+.home-section--patterns > div {
+  max-width: 1600px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Pattern cards grid - responsive for all screen sizes */
+.home-section--patterns .pattern-cards-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  gap: 2.5rem !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+  max-width: 1400px !important;
+}
+
+/* Featured talks section */
+.home-section--talks {
+  padding: 6rem 3% 6rem 3% !important;
+}
+
+.home-section--talks > div {
+  max-width: 1600px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Talks grid layout */
+.home-section--talks .talks-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 3rem !important;
+  justify-content: center !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+/* Contribute section */
+.home-section--contribute {
+  padding: 6rem 5% 6rem 5% !important;
+}
+
+.home-section--contribute > div {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
+/* Responsive breakpoints */
+@media (min-width: 1400px) {
+  .hero-section {
+    padding: 15rem 8% 10rem 8% !important;
+  }
+  
+  .home-section--patterns,
+  .home-section--talks {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  
+  .pattern-cards-grid {
+    max-width: 1600px !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  .hero-section {
+    padding: 15rem 12% 12rem 12% !important;
+  }
+  
+  .home-section--patterns,
+  .home-section--talks {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 12rem 4% 6rem 4% !important;
+  }
+  
+  .home-section--patterns,
+  .home-section--talks,
+  .home-section--contribute {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+  }
+  
+  .pattern-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  
+  .talks-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
 }

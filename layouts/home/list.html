@@ -2,13 +2,13 @@
 <!-- Hero Section Start -->
 <section class="hero-section" style="background: var(--c-bg-alt, #f7f7f9); color: var(--c-text, #222); padding: 7rem 0 6rem 0; text-align: center; border-bottom: 1px solid #e0e0e0; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.03);">
   <div class="hero-content" style="max-width: 900px; margin: 0 auto;">
-    <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1.3rem; letter-spacing: -1px; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;">
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; margin-bottom: 1.5rem; letter-spacing: -1px; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; line-height: 1.2; max-width: 1000px; margin-left: auto; margin-right: auto;">
       Modernize with Confidence – convert your legacy liability into a competitive advantage
     </h1>
-    <p style="font-size: 1.7rem; margin-bottom: 2.2rem; color: var(--c-text-light, #555); font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 500;">Legacy-modernization.io is a collection of resources to help you plan and execute your modernization journey.</p>
+    <p style="font-size: clamp(1.4rem, 2.5vw, 1.8rem); margin-bottom: 2.5rem; color: var(--c-text-light, #555); font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 500; line-height: 1.6; max-width: 800px; margin-left: auto; margin-right: auto;">Legacy-modernization.io is a comprehensive collection of proven patterns, strategies, and resources to help you plan and execute your modernization journey with confidence.</p>
     <div style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
-      <a href="/patterns/" class="hero-btn" style="display: inline-block; background: #00bfae; color: #fff; padding: 1.2rem 3rem; border-radius: 2rem; font-size: 1.5rem; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 600; text-decoration: none; transition: background 0.2s; box-shadow: 0 2px 8px 0 rgba(0,191,174,0.08); letter-spacing: -0.5px;">Explore Patterns</a>
-      <a href="/learn/" class="hero-btn" style="display: inline-block; background: #0077b6; color: #fff; padding: 1.2rem 3rem; border-radius: 2rem; font-size: 1.5rem; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 600; text-decoration: none; transition: background 0.2s; box-shadow: 0 2px 8px 0 rgba(0,119,182,0.08); letter-spacing: -0.5px;">Learning Resources</a>
+      <a href="/patterns/" class="hero-btn" style="display: inline-block; background: #00bfae; color: #fff; padding: 1.2rem 3rem; border-radius: 2rem; font-size: clamp(1.3rem, 2vw, 1.5rem); font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 600; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 16px 0 rgba(0,191,174,0.2); letter-spacing: -0.5px; min-width: 180px;" onmouseover="this.style.background='#00a896'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 24px 0 rgba(0,191,174,0.3)'" onmouseout="this.style.background='#00bfae'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 16px 0 rgba(0,191,174,0.2)'">Explore Patterns</a>
+      <a href="/learn/" class="hero-btn" style="display: inline-block; background: #0077b6; color: #fff; padding: 1.2rem 3rem; border-radius: 2rem; font-size: clamp(1.3rem, 2vw, 1.5rem); font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 600; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 16px 0 rgba(0,119,182,0.2); letter-spacing: -0.5px; min-width: 180px;" onmouseover="this.style.background='#005f8a'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 24px 0 rgba(0,119,182,0.3)'" onmouseout="this.style.background='#0077b6'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 16px 0 rgba(0,119,182,0.2)'">Learning Resources</a>
     </div>
     <div style="margin-top: 2.5rem; font-size: 1.25rem; color: var(--c-text-light, #555); font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; font-weight: 500;">
       Follow us for the latest updates and announcements
@@ -30,7 +30,7 @@
 <section class="home-section home-section--patterns" style="background: var(--c-bg, #fff); padding: 4rem 0 2rem 0; border-bottom: 1px solid #ececec;">
   <div style="max-width: 1100px; margin: 0 auto;">
     <h2 style="font-size: 2.4rem; font-weight: 700; margin-bottom: 2.2rem; text-align: center; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; color: #222;">Featured Patterns</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+    <div class="pattern-cards-grid" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
       {{ $featured := slice "/patterns/migration/strangler-fig/" "/patterns/migration/bubble/" "/patterns/data-synchronisation/bi-directional-sync/" }}
       {{ $descriptions := slice 
         "The Strangler Fig pattern is a metaphor invented by Martin Fowler to describe a gradual migration away from a legacy system to a new system (aka the strangler fig application)."
@@ -39,7 +39,7 @@
       }}
       {{ range $i, $f := $featured }}
         {{ with site.GetPage $f }}
-          <div style="flex: 1 1 300px; max-width: 340px; min-width: 260px; background: #ffffff; border-radius: 1.2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08); padding: 2.5rem; display: flex; flex-direction: column; align-items: flex-start;">
+          <div style="background: #ffffff; border-radius: 1.2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 2.5rem; display: flex; flex-direction: column; align-items: flex-start; transition: transform 0.3s ease, box-shadow 0.3s ease; min-height: 500px;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 8px 32px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.1)'">
             <a href="{{ .RelPermalink }}" aria-label="Read more about {{ .Title }}">
               {{ if eq $i 0 }}
                 <img src="/patterns/migration/strangler-fig/strangler-feature.svg" alt="Strangler Fig Pattern" style="width:280px; height:250px; object-fit:cover; border-radius:0.7rem; display:block; margin:0 auto 1.5rem auto;" />
@@ -77,15 +77,18 @@
 <section class="home-section home-section--talks" style="background: var(--c-bg-alt, #f7f7f9); padding: 4rem 0 4rem 0; border-bottom: 1px solid #ececec;">
   <div style="max-width: 1100px; margin: 0 auto;">
     <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 2.2rem; text-align: center; font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif; color: #222;">Featured Talks</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
-      <a href="https://www.youtube.com/watch?v=Ah-X2wvxzes" target="_blank" style="flex: 1 1 300px; max-width: 340px; min-width: 260px; text-align: center; text-decoration: none;">
-        <img src="https://img.youtube.com/vi/Ah-X2wvxzes/hqdefault.jpg" alt="Legacy Modernization: The Big Picture" style="width:100%; max-width:280px; height:auto; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1rem;" />
+    <div class="talks-grid" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+      <a href="https://www.youtube.com/watch?v=Ah-X2wvxzes" target="_blank" style="text-align: center; text-decoration: none; display: block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="https://img.youtube.com/vi/Ah-X2wvxzes/hqdefault.jpg" alt="Legacy Modernization: The Big Picture" style="width:100%; height:auto; border-radius:1rem; background:#e0e0e0; display:block; box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: box-shadow 0.3s ease;" />
+        <div style="margin-top: 1rem; font-size: 1.4rem; font-weight: 600; color: #333; font-family: 'IBM Plex Sans', sans-serif;">The Big Picture</div>
       </a>
-      <a href="https://www.youtube.com/watch?v=fc6_NtD9soI" target="_blank" style="flex: 1 1 300px; max-width: 340px; min-width: 260px; text-align: center; text-decoration: none;">
-        <img src="https://img.youtube.com/vi/fc6_NtD9soI/hqdefault.jpg" alt="Legacy Modernization: EventStorming for Modernization" style="width:100%; max-width:280px; height:auto; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1rem;" />
+      <a href="https://www.youtube.com/watch?v=fc6_NtD9soI" target="_blank" style="text-align: center; text-decoration: none; display: block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="https://img.youtube.com/vi/fc6_NtD9soI/hqdefault.jpg" alt="Legacy Modernization: EventStorming for Modernization" style="width:100%; height:auto; border-radius:1rem; background:#e0e0e0; display:block; box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: box-shadow 0.3s ease;" />
+        <div style="margin-top: 1rem; font-size: 1.4rem; font-weight: 600; color: #333; font-family: 'IBM Plex Sans', sans-serif;">EventStorming for Modernization</div>
       </a>
-      <a href="https://www.youtube.com/watch?v=Qdits--aoT4" target="_blank" style="flex: 1 1 300px; max-width: 340px; min-width: 260px; text-align: center; text-decoration: none;">
-        <img src="https://img.youtube.com/vi/Qdits--aoT4/hqdefault.jpg" alt="Legacy Modernization: Modernization Patterns" style="width:100%; max-width:280px; height:auto; border-radius:0.7rem; background:#e0e0e0; display:block; margin:0 auto 1rem;" />
+      <a href="https://www.youtube.com/watch?v=Qdits--aoT4" target="_blank" style="text-align: center; text-decoration: none; display: block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="https://img.youtube.com/vi/Qdits--aoT4/hqdefault.jpg" alt="Legacy Modernization: Modernization Patterns" style="width:100%; height:auto; border-radius:1rem; background:#e0e0e0; display:block; box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: box-shadow 0.3s ease;" />
+        <div style="margin-top: 1rem; font-size: 1.4rem; font-weight: 600; color: #333; font-family: 'IBM Plex Sans', sans-serif;">Modernization Patterns</div>
       </a>
     </div>
     <div style="text-align: center; margin-top: 3rem;">
