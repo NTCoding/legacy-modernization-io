@@ -6,6 +6,9 @@ theme: 'perplex'
 params:
   images:
     - /og-default.png
+  favicon:
+    svg: favicon/favicon.svg
+    png: favicon/favicon.png
 
 Menus:
   main_social:
