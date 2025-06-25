@@ -18,7 +18,7 @@ The Bubble or Bubble Context pattern was defined by Eric Evans, the author of Do
 Over time, as more logic gets built-in the new model (the bubble), it delegates less and less to the legacy, until eventually the bubble "pops" - the legacy is gone.
 
 <div class="title title--sans title--third">
-  <img src="/patterns/migration/bubble/bubble.png" alt="Bubble pattern" style="max-width: 100%; width: 100%; height: auto;">
+  <img src="/patterns/migration/bubble/bubble.svg" alt="Bubble pattern" style="max-width: 100%; width: 100%; height: auto;">
 </div>
 
 {{< comingsoon >}}
