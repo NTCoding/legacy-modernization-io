@@ -19,9 +19,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.3131215"
-     inkscape:cx="172.49418"
-     inkscape:cy="33.504509"
+     inkscape:zoom="2.2133279"
+     inkscape:cx="121.08463"
+     inkscape:cy="63.027262"
      inkscape:window-width="1400"
      inkscape:window-height="720"
      inkscape:window-x="0"
@@ -35,7 +35,7 @@
        id="arrowhead"
        markerWidth="9.1875639"
        markerHeight="6.1250424"
-       refX="12.38667"
+       refX="10.387"
        refY="4.0966673"
        orient="auto"
        markerUnits="userSpaceOnUse"
@@ -50,7 +50,7 @@
   <!-- Background -->
   <!-- Write operations -->
   <rect
-     x="26.785763"
+     x="206.78577"
      y="10.19137"
      width="43.99868"
      height="21.99934"
@@ -59,7 +59,7 @@
      id="rect2"
      style="stroke-width:1" />
   <text
-     x="48.78511"
+     x="228.78511"
      y="21.19104"
      text-anchor="middle"
      dominant-baseline="middle"
@@ -70,16 +70,16 @@
      id="text2"
      style="stroke-width:1">Write</text>
   <rect
-     x="206.78578"
+     x="26.659025"
      y="11.070053"
      width="43.99868"
      height="21.99934"
      rx="0"
      fill="#f0f8fc"
      id="rect2-6"
-     style="stroke-width:1;fill:#edfdf0;fill-opacity:1" />
+     style="fill:#edfdf0;fill-opacity:1;stroke-width:1" />
   <text
-     x="228.78511"
+     x="48.658352"
      y="22.069725"
      text-anchor="middle"
      dominant-baseline="middle"
@@ -88,7 +88,7 @@
      font-weight="500"
      fill="#0077b6"
      id="text2-2"
-     style="stroke-width:1;fill:#008025;fill-opacity:1"><tspan
+     style="fill:#008025;fill-opacity:1;stroke-width:1"><tspan
        style="fill:#008025;fill-opacity:1"
        id="tspan8">Read</tspan></text>
   <!-- Legacy System -->
@@ -139,10 +139,10 @@
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.6667px;font-family:Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;-inkscape-font-specification:'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;dominant-baseline:middle;text-anchor:middle;fill:#7b2cbf">New</text>
   <!-- Bi-directional sync arrows -->
   <line
-     x1="90"
-     y1="113.06564"
-     x2="190"
-     y2="113.06564"
+     x1="187.87654"
+     y1="112.77871"
+     x2="89.42086"
+     y2="112.77871"
      stroke="#4a4a4a"
      stroke-width="2"
      stroke-dasharray="5,3"
