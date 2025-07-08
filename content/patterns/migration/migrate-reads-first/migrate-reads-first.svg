@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="280"
+   height="168"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="migrate-reads-first.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3131215"
+     inkscape:cx="172.49418"
+     inkscape:cy="33.504509"
+     inkscape:window-width="1400"
+     inkscape:window-height="720"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <!-- Definitions for arrowheads -->
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="9.1875639"
+       markerHeight="6.1250424"
+       refX="12.38667"
+       refY="4.0966673"
+       orient="auto"
+       markerUnits="userSpaceOnUse"
+       preserveAspectRatio="xMidYMid"
+       viewBox="0 0 12 8">
+      <polygon
+         points="0,0 12,4 0,8 "
+         fill="#4a4a4a"
+         id="polygon1" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <!-- Write operations -->
+  <rect
+     x="26.785763"
+     y="10.19137"
+     width="43.99868"
+     height="21.99934"
+     rx="0"
+     fill="#f0f8fc"
+     id="rect2"
+     style="stroke-width:1" />
+  <text
+     x="48.78511"
+     y="21.19104"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="8.79974px"
+     font-weight="500"
+     fill="#0077b6"
+     id="text2"
+     style="stroke-width:1">Write</text>
+  <rect
+     x="206.78578"
+     y="11.070053"
+     width="43.99868"
+     height="21.99934"
+     rx="0"
+     fill="#f0f8fc"
+     id="rect2-6"
+     style="stroke-width:1;fill:#edfdf0;fill-opacity:1" />
+  <text
+     x="228.78511"
+     y="22.069725"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="8.79974px"
+     font-weight="500"
+     fill="#0077b6"
+     id="text2-2"
+     style="stroke-width:1;fill:#008025;fill-opacity:1"><tspan
+       style="fill:#008025;fill-opacity:1"
+       id="tspan8">Read</tspan></text>
+  <!-- Legacy System -->
+  <rect
+     x="8.6208611"
+     y="76.510597"
+     width="80"
+     height="72.73484"
+     rx="4"
+     fill="#f9f9f9"
+     stroke="#999999"
+     stroke-width="1"
+     id="rect4"
+     style="stroke-width:1.6;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none" />
+  <text
+     x="48.252861"
+     y="112.66154"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="14px"
+     font-weight="500"
+     fill="#666666"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.6667px;font-family:Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;-inkscape-font-specification:'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;dominant-baseline:middle;text-anchor:middle;fill:#666666">Legacy</text>
+  <!-- New System -->
+  <rect
+     x="188.62086"
+     y="76.510597"
+     width="80"
+     height="72.73484"
+     rx="4"
+     fill="#fafafe"
+     stroke="#7b2cbf"
+     stroke-width="1"
+     id="rect5"
+     style="stroke-width:1.6;stroke-dasharray:none" />
+  <text
+     x="228.25172"
+     y="114.07089"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="14px"
+     font-weight="500"
+     fill="#7b2cbf"
+     id="text5"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.6667px;font-family:Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;-inkscape-font-specification:'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;dominant-baseline:middle;text-anchor:middle;fill:#7b2cbf">New</text>
+  <!-- Bi-directional sync arrows -->
+  <line
+     x1="90"
+     y1="113.06564"
+     x2="190"
+     y2="113.06564"
+     stroke="#4a4a4a"
+     stroke-width="2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arrowhead)"
+     id="line5"
+     style="stroke-width:1.1;stroke-dasharray:2.75, 1.65;stroke-dashoffset:0" />
+  <!-- Sync components -->
+  <rect
+     x="116.69362"
+     y="80.761223"
+     width="43.854492"
+     height="21.927246"
+     rx="0"
+     fill="#f8f4e8"
+     id="rect6"
+     style="stroke-width:0.999999" />
+  <text
+     x="138.62086"
+     y="91.724846"
+     text-anchor="middle"
+     dominant-baseline="middle"
+     font-family="Inter, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="8.7709px"
+     font-weight="500"
+     fill="#cc8400"
+     id="text6"
+     style="stroke-width:0.999999">Sync</text>
+  <!-- Arrows -->
+  <!-- Write to Legacy -->
+  <line
+     x1="48.620865"
+     y1="36.510597"
+     x2="48.620865"
+     y2="76.510597"
+     stroke="#4a4a4a"
+     stroke-width="2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arrowhead)"
+     id="line7"
+     style="stroke-width:1.1;stroke-dasharray:2.75, 1.65;stroke-dashoffset:0" />
+  <!-- Write to New -->
+  <line
+     x1="228.62086"
+     y1="36.510597"
+     x2="228.62086"
+     y2="76.510597"
+     stroke="#4a4a4a"
+     stroke-width="2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arrowhead)"
+     id="line8"
+     style="stroke-width:1.1;stroke-dasharray:2.75, 1.65;stroke-dashoffset:0" />
+</svg>
