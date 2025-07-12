@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Exact dotted pattern from reference -->
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="2" cy="2" r="0.8" fill="#ffffff" opacity="0.4"/>
+    </pattern>
+    
+    <!-- Exact cream/beige gradient from reference -->
+    <linearGradient id="yellowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF9E7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8DC83;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gray triangle -->
+    <linearGradient id="grayGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDC3C7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#95A5A6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Stream-Aligned Teams exactly like reference -->
+  <rect x="30" y="50" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
+  <text x="400" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Payments Team</text>
+  
+  <rect x="30" y="130" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
+  <text x="400" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Customer Team</text>
+  
+  <rect x="30" y="210" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
+  <text x="400" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Analytics Team</text>
+  
+  <rect x="30" y="290" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
+  <text x="400" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Platform Team</text>
+  
+  <!-- AMET Enabling Team exactly like reference -->
+  <rect x="200" y="30" width="80" height="340" rx="15" fill="#8B6BA8" stroke="#7A5F96" stroke-width="3"/>
+  <rect x="205" y="35" width="70" height="330" rx="12" fill="url(#dots)"/>
+  
+  <!-- AMET text - properly centered both horizontally and vertically -->
+  <text x="240" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" transform="rotate(90, 240, 200)" dominant-baseline="central">AMET</text>
+</svg>
