@@ -1,0 +1,61 @@
+<svg viewBox="0 0 750 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Frontend First Approach -->
+  <g id="frontend-first">
+    <!-- New UI (purple border) -->
+    <rect x="60" y="50" width="160" height="70" rx="10" fill="#ffffff" stroke="#7b2cbf" stroke-width="3"/>
+    <text x="140" y="90" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">New UI</text>
+    
+    <!-- Arrow down -->
+    <line x1="140" y1="130" x2="140" y2="160" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="135,155 140,165 145,155" fill="#4a4a4a"/>
+    
+    <!-- Legacy Backend (grey border) -->
+    <rect x="60" y="170" width="160" height="70" rx="10" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+    <text x="140" y="210" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">Legacy backend</text>
+  </g>
+
+  <!-- Backend First Approach -->
+  <g id="backend-first">
+    <!-- Legacy UI (grey border) -->
+    <rect x="295" y="50" width="160" height="70" rx="10" fill="#ffffff" stroke="#999999" stroke-width="3"/>
+    <text x="375" y="90" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#666666">Legacy UI</text>
+    
+    <!-- Arrow down -->
+    <line x1="375" y1="130" x2="375" y2="160" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="370,155 375,165 380,155" fill="#4a4a4a"/>
+    
+    <!-- New Backend (purple border) -->
+    <rect x="295" y="170" width="160" height="70" rx="10" fill="#ffffff" stroke="#7b2cbf" stroke-width="3"/>
+    <text x="375" y="210" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">New backend</text>
+  </g>
+
+  <!-- Both Together Approach -->
+  <g id="both-together">
+    <!-- New UI (purple border) -->
+    <rect x="530" y="50" width="160" height="70" rx="10" fill="#ffffff" stroke="#7b2cbf" stroke-width="3"/>
+    <text x="610" y="90" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">New UI</text>
+    
+    <!-- Arrow down -->
+    <line x1="610" y1="130" x2="610" y2="160" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="605,155 610,165 615,155" fill="#4a4a4a"/>
+    
+    <!-- New Backend (purple border) -->
+    <rect x="530" y="170" width="160" height="70" rx="10" fill="#ffffff" stroke="#7b2cbf" stroke-width="3"/>
+    <text x="610" y="210" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="500" fill="#7b2cbf">New backend</text>
+  </g>
+
+  <!-- Approach Labels -->
+  <text x="140" y="280" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="600" fill="#4a4a4a">Frontend First</text>
+  <text x="375" y="280" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="600" fill="#4a4a4a">Backend First</text>
+  <text x="610" y="280" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="600" fill="#4a4a4a">Both Together</text>
+
+  <!-- Approach Descriptions -->
+  <text x="140" y="305" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">Modernize UI first,</text>
+  <text x="140" y="320" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">keep legacy backend</text>
+  
+  <text x="375" y="305" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">Modernize backend first,</text>
+  <text x="375" y="320" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">keep legacy UI</text>
+  
+  <text x="610" y="305" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">Modernize both</text>
+  <text x="610" y="320" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-style="italic" fill="#666666">simultaneously</text>
+</svg>
