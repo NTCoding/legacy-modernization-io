@@ -20,16 +20,16 @@
   
   <!-- Stream-Aligned Teams exactly like reference -->
   <rect x="30" y="50" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
-  <text x="400" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Payments Team</text>
+  <text x="400" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Modernizing Team A</text>
   
   <rect x="30" y="130" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
-  <text x="400" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Customer Team</text>
+  <text x="400" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Modernizing Team B</text>
   
   <rect x="30" y="210" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
-  <text x="400" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Analytics Team</text>
+  <text x="400" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Modernizing Team C</text>
   
   <rect x="30" y="290" width="740" height="60" rx="8" fill="url(#yellowGradient)" stroke="#D4AC0D" stroke-width="3"/>
-  <text x="400" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Platform Team</text>
+  <text x="400" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Modernizing Team D</text>
   
   <!-- AMET Enabling Team exactly like reference -->
   <rect x="200" y="30" width="80" height="340" rx="15" fill="#8B6BA8" stroke="#7A5F96" stroke-width="3"/>
